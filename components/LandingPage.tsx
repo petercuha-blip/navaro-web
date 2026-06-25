@@ -1,7 +1,7 @@
 import type { Lang, Translations } from '@/lib/i18n'
 import { LANG_LABELS, LANG_URLS } from '@/lib/i18n'
+import BetaForm from '@/components/BetaForm'
 
-const appUrl = 'https://app.navaro.pro'
 const contactUrl = 'mailto:info@navaro.pro'
 
 const badgeStyles: Record<string, string> = {
@@ -26,9 +26,7 @@ export default function LandingPage({ t, lang }: Props) {
             <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-[#6D35F5] text-sm font-black text-white shadow-lg shadow-[#6D35F5]/20">
               N
             </span>
-            <span className="text-sm font-bold tracking-tight sm:text-base">
-              {t.header.logo}
-            </span>
+            <span className="text-sm font-bold tracking-tight sm:text-base">{t.header.logo}</span>
           </a>
 
           <nav className="hidden items-center gap-7 text-sm font-medium text-[#64748B] lg:flex">
@@ -46,9 +44,7 @@ export default function LandingPage({ t, lang }: Props) {
                   key={l}
                   href={LANG_URLS[l]}
                   className={`rounded-full px-2.5 py-1 text-xs font-bold transition ${
-                    l === lang
-                      ? 'bg-[#6D35F5] text-white'
-                      : 'text-[#64748B] hover:text-[#0F172A]'
+                    l === lang ? 'bg-[#6D35F5] text-white' : 'text-[#64748B] hover:text-[#0F172A]'
                   }`}
                 >
                   {LANG_LABELS[l]}
@@ -57,7 +53,7 @@ export default function LandingPage({ t, lang }: Props) {
             </div>
 
             <a
-              href={appUrl}
+              href={`${LANG_URLS[lang]}#beta`}
               className="rounded-full border border-[#E5E7EB] bg-white px-4 py-2 text-sm font-bold text-[#0F172A] shadow-sm transition hover:border-[#6D35F5] hover:text-[#6D35F5]"
             >
               {t.header.login}
@@ -78,22 +74,14 @@ export default function LandingPage({ t, lang }: Props) {
             <span className="block text-[#6D35F5]">{t.hero.h1_2}</span>
           </h1>
 
-          <p className="mt-6 max-w-xl text-lg leading-8 text-[#64748B]">
-            {t.hero.subtext}
-          </p>
+          <p className="mt-6 max-w-xl text-lg leading-8 text-[#64748B]">{t.hero.subtext}</p>
 
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-8">
             <a
-              href={appUrl}
-              className="rounded-2xl bg-[#6D35F5] px-7 py-4 text-center text-sm font-bold text-white shadow-xl shadow-[#6D35F5]/20 transition hover:-translate-y-0.5 hover:bg-[#5B27D9]"
+              href="#beta"
+              className="inline-block rounded-2xl bg-[#6D35F5] px-7 py-4 text-center text-sm font-bold text-white shadow-xl shadow-[#6D35F5]/20 transition hover:-translate-y-0.5 hover:bg-[#5B27D9]"
             >
               {t.hero.cta1}
-            </a>
-            <a
-              href="#product"
-              className="rounded-2xl border border-[#E5E7EB] bg-white px-7 py-4 text-center text-sm font-bold text-[#0F172A] shadow-sm transition hover:-translate-y-0.5 hover:border-[#6D35F5] hover:text-[#6D35F5]"
-            >
-              {t.hero.cta2}
             </a>
           </div>
         </div>
@@ -129,9 +117,7 @@ export default function LandingPage({ t, lang }: Props) {
       <section id="modules" className="bg-[#F7F5FF]">
         <div className="mx-auto max-w-7xl px-5 py-20 sm:px-6 lg:py-24">
           <div className="max-w-3xl">
-            <h2 className="text-3xl font-black tracking-tight text-[#0F172A] sm:text-4xl">
-              {t.modules.title}
-            </h2>
+            <h2 className="text-3xl font-black tracking-tight text-[#0F172A] sm:text-4xl">{t.modules.title}</h2>
             <p className="mt-4 text-lg leading-8 text-[#64748B]">{t.modules.subtitle}</p>
           </div>
 
@@ -152,41 +138,30 @@ export default function LandingPage({ t, lang }: Props) {
         </div>
       </section>
 
-      {/* ── Pricing / Beta ── */}
-      <section id="pricing" className="bg-white">
-        <div className="mx-auto max-w-7xl px-5 py-20 sm:px-6 lg:py-24">
-          <div className="grid items-center gap-8 rounded-[2rem] border border-[#E5E7EB] bg-[#FAF8FF] p-7 shadow-[0_22px_60px_rgba(15,23,42,0.07)] md:grid-cols-[1.2fr_0.8fr] md:p-10">
-            <div>
-              <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#FF8A2A]">
-                {t.pricing.badge}
-              </p>
-              <h2 className="mt-3 text-3xl font-black text-[#0F172A]">{t.pricing.title}</h2>
-              <p className="mt-4 text-lg leading-8 text-[#64748B]">{t.pricing.description}</p>
-            </div>
-            <div className="flex md:justify-end">
-              <a
-                href={contactUrl}
-                className="w-full rounded-2xl bg-[#6D35F5] px-7 py-4 text-center text-sm font-bold text-white shadow-xl shadow-[#6D35F5]/20 transition hover:bg-[#5B27D9] sm:w-auto"
-              >
-                {t.pricing.cta}
-              </a>
-            </div>
+      {/* ── Beta form ── */}
+      <section id="beta" className="bg-white">
+        <div className="mx-auto max-w-2xl px-5 py-20 sm:px-6 lg:py-24">
+          <div className="mb-3 text-center">
+            <span className="inline-flex rounded-full bg-[#EEE8FF] px-4 py-1.5 text-xs font-bold uppercase tracking-[0.16em] text-[#6D35F5]">
+              {t.pricing.badge}
+            </span>
           </div>
+          <h2 className="mb-2 text-center text-3xl font-black tracking-tight text-[#0F172A] sm:text-4xl">
+            {t.betaForm.title}
+          </h2>
+          <p className="mb-10 text-center text-lg leading-8 text-[#64748B]">{t.betaForm.description}</p>
+          <BetaForm t={t.betaForm} />
         </div>
       </section>
 
       {/* ── Contact ── */}
       <section id="contact" className="bg-[#FAF8FF]">
         <div className="mx-auto max-w-5xl px-5 py-20 text-center sm:px-6 lg:py-24">
-          <h2 className="text-3xl font-black tracking-tight text-[#0F172A] sm:text-4xl">
-            {t.contact.title}
-          </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-lg leading-8 text-[#64748B]">
-            {t.contact.description}
-          </p>
+          <h2 className="text-3xl font-black tracking-tight text-[#0F172A] sm:text-4xl">{t.contact.title}</h2>
+          <p className="mx-auto mt-4 max-w-2xl text-lg leading-8 text-[#64748B]">{t.contact.description}</p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <a
-              href={appUrl}
+              href="#beta"
               className="rounded-2xl bg-[#6D35F5] px-7 py-4 text-sm font-bold text-white shadow-xl shadow-[#6D35F5]/20 transition hover:bg-[#5B27D9]"
             >
               {t.contact.cta1}
@@ -206,8 +181,7 @@ export default function LandingPage({ t, lang }: Props) {
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 text-sm text-[#64748B] md:flex-row">
           <p>{t.footer.copyright}</p>
           <div className="flex gap-5">
-            <a href={appUrl} className="transition hover:text-[#6D35F5]">App</a>
-            <a href={`${appUrl}/login`} className="transition hover:text-[#6D35F5]">{t.header.login}</a>
+            <a href="#beta" className="transition hover:text-[#6D35F5]">{t.hero.cta1}</a>
             <a href={contactUrl} className="transition hover:text-[#6D35F5]">{t.header.nav.contact}</a>
           </div>
         </div>

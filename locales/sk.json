@@ -18,8 +18,7 @@
     "h1_1": "Menej administratívy.",
     "h1_2": "Viac obchodu.",
     "subtext": "Vytvárajte profesionálne cenové ponuky s pomocou AI za pár minút. Exportujte ako PDF, odošlite zákazníkovi a sledujte jeho rozhodnutie v reálnom čase.",
-    "cta1": "Vyskúšať zadarmo",
-    "cta2": "Pozrieť ako to funguje"
+    "cta1": "Vyskúšať zadarmo"
   },
   "product": {
     "cards": [
@@ -70,6 +69,18 @@
     "title": "Hľadáme firmy na beta testovanie!",
     "description": "Získajte prístup zadarmo výmenou za váš feedback.",
     "cta": "Chcem sa zapojiť"
+  },
+  "betaForm": {
+    "title": "Požiadať o beta prístup",
+    "description": "Vyplňte formulár a my vám pošleme pozvánku do beta programu.",
+    "name": "Meno a priezvisko",
+    "email": "Firemný email",
+    "company": "Názov firmy",
+    "message": "Ako momentálne vytvárate cenové ponuky? (voliteľné)",
+    "submit": "Odoslať žiadosť",
+    "submitting": "Odosielam...",
+    "success": "Ďakujeme! Ozveme sa vám čoskoro s pozvánkou.",
+    "error": "Niečo sa nepodarilo. Skúste nás kontaktovať na info@navaro.pro."
   },
   "contact": {
     "title": "Začnite ponukami, ktoré vyzerajú profesionálne a sú pod kontrolou.",

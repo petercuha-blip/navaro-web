@@ -1,3 +1,4 @@
+// Re-export so Translations type always matches sk.json shape
 import sk from '@/locales/sk.json'
 import en from '@/locales/en.json'
 import pl from '@/locales/pl.json'

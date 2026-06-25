@@ -18,8 +18,7 @@
     "h1_1": "Less admin.",
     "h1_2": "More business.",
     "subtext": "Create professional quotes with AI in minutes. Export as PDF, send to your customer and track their decision in real time.",
-    "cta1": "Try for free",
-    "cta2": "See how it works"
+    "cta1": "Try for free"
   },
   "product": {
     "cards": [
@@ -70,6 +69,18 @@
     "title": "We're looking for beta testers!",
     "description": "Get free access in exchange for your feedback.",
     "cta": "I want to join"
+  },
+  "betaForm": {
+    "title": "Request beta access",
+    "description": "Fill in the form and we'll send you a beta invite.",
+    "name": "Full name",
+    "email": "Business email",
+    "company": "Company name",
+    "message": "How do you currently create quotes? (optional)",
+    "submit": "Send request",
+    "submitting": "Sending...",
+    "success": "Thank you! We'll be in touch soon with your invite.",
+    "error": "Something went wrong. Please contact us at info@navaro.pro."
   },
   "contact": {
     "title": "Start with quotes that look professional and are under control.",

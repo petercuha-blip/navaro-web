@@ -18,8 +18,7 @@
     "h1_1": "Mniej administracji.",
     "h1_2": "Więcej biznesu.",
     "subtext": "Twórz profesjonalne oferty cenowe z pomocą AI w kilka minut. Eksportuj jako PDF, wyślij klientowi i śledź jego decyzję w czasie rzeczywistym.",
-    "cta1": "Wypróbuj za darmo",
-    "cta2": "Zobacz jak to działa"
+    "cta1": "Wypróbuj za darmo"
   },
   "product": {
     "cards": [
@@ -70,6 +69,18 @@
     "title": "Szukamy firm do testów beta!",
     "description": "Uzyskaj darmowy dostęp w zamian za Twoją opinię.",
     "cta": "Chcę dołączyć"
+  },
+  "betaForm": {
+    "title": "Poproś o dostęp beta",
+    "description": "Wypełnij formularz, a my wyślemy Ci zaproszenie do programu beta.",
+    "name": "Imię i nazwisko",
+    "email": "Email firmowy",
+    "company": "Nazwa firmy",
+    "message": "Jak obecnie tworzysz oferty cenowe? (opcjonalnie)",
+    "submit": "Wyślij prośbę",
+    "submitting": "Wysyłam...",
+    "success": "Dziękujemy! Wkrótce wyślemy Ci zaproszenie.",
+    "error": "Coś poszło nie tak. Skontaktuj się z nami na info@navaro.pro."
   },
   "contact": {
     "title": "Zacznij od ofert, które wyglądają profesjonalnie i są pod kontrolą.",
