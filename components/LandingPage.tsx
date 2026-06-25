@@ -98,24 +98,12 @@ export default function LandingPage({ t, lang }: Props) {
           </div>
         </div>
 
-        {/* Screenshot placeholder — Peter: nahraď aktuálnym screenshotom dashboardu */}
         <div className="min-w-0">
-          <div className="w-full overflow-hidden rounded-[2rem] border border-[#E5E7EB] bg-white shadow-[0_28px_80px_rgba(109,53,245,0.16)]">
-            {/* TODO: Peter nahrá aktuálny screenshot OfferGen dashboardu.
-                Odporúčané rozmery: 1200×800px, uložiť do public/screenshot-dashboard.png
-                a nahradiť tento div za:
-                <img src="/screenshot-dashboard.png" alt="Navaro OfferGen dashboard" className="w-full rounded-[2rem]" />
-            */}
-            <div className="flex aspect-[3/2] items-center justify-center rounded-[2rem] bg-[#F5F3FF]">
-              <div className="text-center">
-                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-[#6D35F5] text-2xl font-black text-white shadow-lg">
-                  N
-                </div>
-                <p className="text-sm font-semibold text-[#6D35F5]">OfferGen</p>
-                <p className="mt-1 text-xs text-[#94A3B8]">app.navaro.pro</p>
-              </div>
-            </div>
-          </div>
+          <img
+            src="/screenshot-dashboard.png"
+            alt="Navaro OfferGen dashboard"
+            className="w-full rounded-2xl border border-gray-200 shadow-2xl"
+          />
         </div>
       </section>
 
