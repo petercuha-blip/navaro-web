@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "Navaro – profesjonalne oferty cenowe z AI",
+    "description": "Twórz profesjonalne oferty cenowe z pomocą AI w kilka minut. Eksportuj jako PDF, wyślij klientowi i śledź jego decyzję w czasie rzeczywistym."
+  },
+  "header": {
+    "logo": "Navaro",
+    "nav": {
+      "product": "Produkt",
+      "modules": "Moduły",
+      "pricing": "Cennik",
+      "contact": "Kontakt"
+    },
+    "login": "Zaloguj się"
+  },
+  "hero": {
+    "badge": "Modularna platforma SaaS do automatyzacji biznesu",
+    "h1_1": "Mniej administracji.",
+    "h1_2": "Więcej biznesu.",
+    "subtext": "Twórz profesjonalne oferty cenowe z pomocą AI w kilka minut. Eksportuj jako PDF, wyślij klientowi i śledź jego decyzję w czasie rzeczywistym.",
+    "cta1": "Wypróbuj za darmo",
+    "cta2": "Zobacz jak to działa"
+  },
+  "product": {
+    "cards": [
+      {
+        "title": "Generowanie treści AI",
+        "description": "Navaro przygotuje wstęp, podsumowanie, punkty i teksty handlowe na podstawie Twojego briefu."
+      },
+      {
+        "title": "Profesjonalne PDF",
+        "description": "Profesjonalne oferty PDF z logo, kalkulacją cenową i VAT. Wiele szablonów do wyboru."
+      },
+      {
+        "title": "Wysyłka jednym kliknięciem",
+        "description": "Wyślij ofertę klientowi mailem bezpośrednio z aplikacji. Klient ją otworzy, zaakceptuje lub odrzuci."
+      },
+      {
+        "title": "Śledzenie w czasie rzeczywistym",
+        "description": "Śledź status oferty w czasie rzeczywistym. Wiesz kiedy klient ją otworzył, zaakceptował lub zaproponował zmiany."
+      }
+    ]
+  },
+  "modules": {
+    "title": "Moduły, których Twoja firma naprawdę potrzebuje",
+    "subtitle": "Navaro dostosowuje się do Twojego biznesu. Płacisz tylko za to, czego używasz.",
+    "items": [
+      {
+        "name": "OfferGen",
+        "badge": "Dostępne",
+        "badgeColor": "green",
+        "description": "Tworzenie i zarządzanie ofertami cenowymi z AI, eksport PDF, wysyłka do klienta, śledzenie statusu."
+      },
+      {
+        "name": "InvoiceGen",
+        "badge": "Wkrótce",
+        "badgeColor": "orange",
+        "description": "Fakturowanie z automatyczną numeracją, kalkulacją VAT i eksportem PDF."
+      },
+      {
+        "name": "Kolejne moduły",
+        "badge": "Planowane",
+        "badgeColor": "gray",
+        "description": "Platforma jest modularna — przygotowujemy kolejne narzędzia do automatyzacji Twojego biznesu."
+      }
+    ]
+  },
+  "pricing": {
+    "badge": "Program beta",
+    "title": "Szukamy firm do testów beta!",
+    "description": "Uzyskaj darmowy dostęp w zamian za Twoją opinię.",
+    "cta": "Chcę dołączyć"
+  },
+  "contact": {
+    "title": "Zacznij od ofert, które wyglądają profesjonalnie i są pod kontrolą.",
+    "description": "Umów demo lub otwórz aplikację i sprawdź OfferGen w akcji.",
+    "cta1": "Wypróbuj za darmo",
+    "cta2": "Kontakt"
+  },
+  "footer": {
+    "copyright": "© 2025–2026 Navaro. Wszelkie prawa zastrzeżone."
+  }
+}

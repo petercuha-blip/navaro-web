@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "Navaro – professional AI-powered quotes",
+    "description": "Create professional quotes with AI in minutes. Export as PDF, send to your customer and track their decision in real time."
+  },
+  "header": {
+    "logo": "Navaro",
+    "nav": {
+      "product": "Product",
+      "modules": "Modules",
+      "pricing": "Pricing",
+      "contact": "Contact"
+    },
+    "login": "Log in"
+  },
+  "hero": {
+    "badge": "Modular SaaS platform for business automation",
+    "h1_1": "Less admin.",
+    "h1_2": "More business.",
+    "subtext": "Create professional quotes with AI in minutes. Export as PDF, send to your customer and track their decision in real time.",
+    "cta1": "Try for free",
+    "cta2": "See how it works"
+  },
+  "product": {
+    "cards": [
+      {
+        "title": "AI content generation",
+        "description": "Navaro creates intro, summary, bullet points and business copy based on your brief."
+      },
+      {
+        "title": "Professional PDFs",
+        "description": "Professional PDF quotes with your logo, pricing breakdown and VAT. Multiple templates to choose from."
+      },
+      {
+        "title": "One-click sending",
+        "description": "Send the quote to your customer via email directly from the app. They open, approve or decline it."
+      },
+      {
+        "title": "Real-time tracking",
+        "description": "Track your quote status in real time. Know when a customer opened, approved or requested changes."
+      }
+    ]
+  },
+  "modules": {
+    "title": "Modules your business actually needs",
+    "subtitle": "Navaro adapts to your business. You only pay for what you use.",
+    "items": [
+      {
+        "name": "OfferGen",
+        "badge": "Available",
+        "badgeColor": "green",
+        "description": "Create and manage quotes with AI, PDF export, send to customer, track status."
+      },
+      {
+        "name": "InvoiceGen",
+        "badge": "Coming soon",
+        "badgeColor": "orange",
+        "description": "Invoicing with automatic numbering, VAT calculation and PDF export."
+      },
+      {
+        "name": "More modules",
+        "badge": "Planned",
+        "badgeColor": "gray",
+        "description": "The platform is modular — more automation tools are on the way."
+      }
+    ]
+  },
+  "pricing": {
+    "badge": "Beta program",
+    "title": "We're looking for beta testers!",
+    "description": "Get free access in exchange for your feedback.",
+    "cta": "I want to join"
+  },
+  "contact": {
+    "title": "Start with quotes that look professional and are under control.",
+    "description": "Book a demo or open the app and see OfferGen in action.",
+    "cta1": "Try for free",
+    "cta2": "Contact"
+  },
+  "footer": {
+    "copyright": "© 2025–2026 Navaro. All rights reserved."
+  }
+}

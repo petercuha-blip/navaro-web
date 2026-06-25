@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "Navaro – profesionálne cenové ponuky s AI",
+    "description": "Vytvárajte profesionálne cenové ponuky s pomocou AI za pár minút. Exportujte ako PDF, odošlite zákazníkovi a sledujte jeho rozhodnutie v reálnom čase."
+  },
+  "header": {
+    "logo": "Navaro",
+    "nav": {
+      "product": "Produkt",
+      "modules": "Moduly",
+      "pricing": "Cenník",
+      "contact": "Kontakt"
+    },
+    "login": "Prihlásenie"
+  },
+  "hero": {
+    "badge": "Modulárna SaaS platforma pre firemné automatizácie",
+    "h1_1": "Menej administratívy.",
+    "h1_2": "Viac obchodu.",
+    "subtext": "Vytvárajte profesionálne cenové ponuky s pomocou AI za pár minút. Exportujte ako PDF, odošlite zákazníkovi a sledujte jeho rozhodnutie v reálnom čase.",
+    "cta1": "Vyskúšať zadarmo",
+    "cta2": "Pozrieť ako to funguje"
+  },
+  "product": {
+    "cards": [
+      {
+        "title": "AI generovanie obsahu",
+        "description": "Navaro pripraví úvod, zhrnutie, body a obchodné texty na základe vášho zadania."
+      },
+      {
+        "title": "PDF na úrovni",
+        "description": "Profesionálne PDF ponuky s logom, cenovou kalkuláciou a DPH. Viacero šablón na výber."
+      },
+      {
+        "title": "Odoslanie jedným klikom",
+        "description": "Pošlite ponuku zákazníkovi emailom priamo z aplikácie. Zákazník ju otvorí, schváli alebo odmietne."
+      },
+      {
+        "title": "Real-time tracking",
+        "description": "Sledujte status ponuky v reálnom čase. Viete kedy ju zákazník otvoril, schválil alebo navrhol zmenu."
+      }
+    ]
+  },
+  "modules": {
+    "title": "Moduly, ktoré vaša firma skutočne potrebuje",
+    "subtitle": "Navaro sa prispôsobí vášmu biznisu. Platíte len za to, čo používate.",
+    "items": [
+      {
+        "name": "OfferGen",
+        "badge": "Dostupné",
+        "badgeColor": "green",
+        "description": "Vytváranie a správa cenových ponúk s AI, PDF export, odoslanie zákazníkovi, sledovanie statusu."
+      },
+      {
+        "name": "InvoiceGen",
+        "badge": "Čoskoro",
+        "badgeColor": "orange",
+        "description": "Fakturácia s automatickým číslovaním, DPH kalkuláciou a PDF exportom."
+      },
+      {
+        "name": "Ďalšie moduly",
+        "badge": "Plánované",
+        "badgeColor": "gray",
+        "description": "Platforma je modulárna — pripravujeme ďalšie nástroje na automatizáciu vášho podnikania."
+      }
+    ]
+  },
+  "pricing": {
+    "badge": "Beta program",
+    "title": "Hľadáme firmy na beta testovanie!",
+    "description": "Získajte prístup zadarmo výmenou za váš feedback.",
+    "cta": "Chcem sa zapojiť"
+  },
+  "contact": {
+    "title": "Začnite ponukami, ktoré vyzerajú profesionálne a sú pod kontrolou.",
+    "description": "Dohodnite si demo alebo otvorte aplikáciu a pozrite si OfferGen v praxi.",
+    "cta1": "Vyskúšať zadarmo",
+    "cta2": "Kontakt"
+  },
+  "footer": {
+    "copyright": "© 2025–2026 Navaro. Všetky práva vyhradené."
+  }
+}
