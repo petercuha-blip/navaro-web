@@ -53,7 +53,7 @@ export default function LandingPage({ t, lang }: Props) {
             </div>
 
             <a
-              href={`${LANG_URLS[lang]}#beta`}
+              href="https://app.navaro.pro/login"
               className="rounded-full border border-[#E5E7EB] bg-white px-4 py-2 text-sm font-bold text-[#0F172A] shadow-sm transition hover:border-[#6D35F5] hover:text-[#6D35F5]"
             >
               {t.header.login}
