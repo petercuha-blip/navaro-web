@@ -1,54 +1,34 @@
 {
   "meta": {
-    "title": "Navaro – profesionálne cenové ponuky s AI",
-    "description": "Vytvárajte profesionálne cenové ponuky s pomocou AI za pár minút. Exportujte ako PDF, odošlite zákazníkovi a sledujte jeho rozhodnutie v reálnom čase."
+    "title": "Navaro – jednoduché nástroje pre obchodné procesy",
+    "description": "Navaro pomáha firmám zjednodušiť obchodné procesy pomocou jednoduchých nástrojov, ktoré šetria čas."
   },
   "header": {
     "logo": "Navaro",
     "nav": {
-      "product": "Produkt",
-      "modules": "Moduly",
-      "pricing": "Cenník",
-      "contact": "Kontakt"
+      "solutions": "Riešenia",
+      "about": "O nás",
+      "why": "Prečo Navaro",
+      "offergen": "OfferGen"
     },
     "login": "Prihlásenie"
   },
   "hero": {
-    "badge": "Modulárna SaaS platforma pre firemné automatizácie",
+    "badge": "Jednoduché nástroje pre obchodné procesy",
     "h1_1": "Menej administratívy.",
     "h1_2": "Viac obchodu.",
-    "subtext": "Vytvárajte profesionálne cenové ponuky s pomocou AI za pár minút. Exportujte ako PDF, odošlite zákazníkovi a sledujte jeho rozhodnutie v reálnom čase.",
-    "cta1": "Vyskúšať zadarmo"
+    "subtext": "Navaro pomáha firmám zjednodušiť obchodné procesy pomocou jednoduchých nástrojov, ktoré šetria čas.",
+    "cta1": "Pozrieť riešenia"
   },
-  "product": {
-    "cards": [
-      {
-        "title": "AI generovanie obsahu",
-        "description": "Navaro pripraví úvod, zhrnutie, body a obchodné texty na základe vášho zadania."
-      },
-      {
-        "title": "PDF na úrovni",
-        "description": "Profesionálne PDF ponuky s logom, cenovou kalkuláciou a DPH. Viacero šablón na výber."
-      },
-      {
-        "title": "Odoslanie jedným klikom",
-        "description": "Pošlite ponuku zákazníkovi emailom priamo z aplikácie. Zákazník ju otvorí, schváli alebo odmietne."
-      },
-      {
-        "title": "Real-time tracking",
-        "description": "Sledujte status ponuky v reálnom čase. Viete kedy ju zákazník otvoril, schválil alebo navrhol zmenu."
-      }
-    ]
-  },
-  "modules": {
-    "title": "Moduly, ktoré vaša firma skutočne potrebuje",
+  "solutions": {
+    "title": "Riešenia, ktoré vaša firma skutočne potrebuje.",
     "subtitle": "Navaro sa prispôsobí vášmu biznisu. Platíte len za to, čo používate.",
     "items": [
       {
         "name": "OfferGen",
-        "badge": "Dostupné",
+        "badge": "Early Access",
         "badgeColor": "green",
-        "description": "Vytváranie a správa cenových ponúk s AI, PDF export, odoslanie zákazníkovi, sledovanie statusu."
+        "description": "Tvorba profesionálnych cenových ponúk, PDF export, odoslanie zákazníkovi a sledovanie statusu."
       },
       {
         "name": "InvoiceGen",
@@ -60,14 +40,46 @@
         "name": "Ďalšie moduly",
         "badge": "Plánované",
         "badgeColor": "gray",
-        "description": "Platforma je modulárna — pripravujeme ďalšie nástroje na automatizáciu vášho podnikania."
+        "description": "Pripravujeme ďalšie jednoduché nástroje pre obchodné procesy a každodennú administratívu."
       }
     ]
   },
-  "pricing": {
-    "badge": "Beta program",
-    "title": "Hľadáme firmy na beta testovanie!",
-    "description": "Získajte prístup zadarmo výmenou za váš feedback.",
+  "about": {
+    "label": "O nás",
+    "title": "Softvér má riešiť skutočné problémy.",
+    "body1": "Veríme, že softvér má riešiť skutočné problémy, nie pridávať ďalšiu zložitosť.",
+    "body2": "Preto každý modul Navaro vzniká z reálnych potrieb firiem a jeho cieľom je ušetriť čas, zjednodušiť každodennú prácu a pomôcť ľuďom sústrediť sa na to, čo je dôležité."
+  },
+  "why": {
+    "label": "Prečo Navaro",
+    "title": "Praktický prístup bez zbytočnej zložitosti.",
+    "items": [
+      {
+        "icon": "Clock",
+        "title": "Začíname problémom",
+        "text": "Najprv hľadáme miesto, kde firma stráca čas, a až potom navrhujeme riešenie."
+      },
+      {
+        "icon": "Pdf",
+        "title": "Riešime jednoducho",
+        "text": "Moduly sú navrhnuté tak, aby sa dali rýchlo pochopiť a používať bez zbytočnej zložitosti."
+      },
+      {
+        "icon": "Send",
+        "title": "Šetríme čas",
+        "text": "Opakované kroky, dokumenty a odosielanie vybavíte rýchlejšie a s menším počtom chýb."
+      },
+      {
+        "icon": "Trend",
+        "title": "Vyberiete si iba to, čo potrebujete",
+        "text": "Navaro je modulárne. Používate len nástroje, ktoré majú pre vašu firmu zmysel."
+      }
+    ]
+  },
+  "earlyAccess": {
+    "label": "OfferGen Early Access",
+    "title": "Staňte sa Founding Partnerom Navaro",
+    "description": "Pomôžte nám vytvoriť najlepší nástroj na tvorbu cenových ponúk.",
     "cta": "Chcem sa zapojiť"
   },
   "betaForm": {
@@ -81,12 +93,6 @@
     "submitting": "Odosielam...",
     "success": "Ďakujeme! Ozveme sa vám čoskoro s pozvánkou.",
     "error": "Niečo sa nepodarilo. Skúste nás kontaktovať na info@navaro.pro."
-  },
-  "contact": {
-    "title": "Začnite ponukami, ktoré vyzerajú profesionálne a sú pod kontrolou.",
-    "description": "Dohodnite si demo alebo otvorte aplikáciu a pozrite si OfferGen v praxi.",
-    "cta1": "Vyskúšať zadarmo",
-    "cta2": "Kontakt"
   },
   "footer": {
     "copyright": "© 2025–2026 Navaro. Všetky práva vyhradené."

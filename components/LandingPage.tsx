@@ -1,13 +1,27 @@
 import type { Lang, Translations } from '@/lib/i18n'
 import { LANG_LABELS, LANG_URLS } from '@/lib/i18n'
-import BetaForm from '@/components/BetaForm'
-
-const contactUrl = 'mailto:info@navaro.pro'
 
 const badgeStyles: Record<string, string> = {
   green: 'bg-[#ECFDF5] text-[#16A34A]',
   orange: 'bg-[#FFF3E3] text-[#EA6F0E]',
   gray: 'bg-[#F1F5F9] text-[#64748B]',
+}
+
+function Icon({ name }: { name: string }) {
+  const common = {
+    className: 'h-5 w-5',
+    fill: 'none',
+    viewBox: '0 0 24 24',
+    stroke: 'currentColor',
+    strokeWidth: 2,
+    strokeLinecap: 'round' as const,
+    strokeLinejoin: 'round' as const,
+    'aria-hidden': true,
+  }
+  if (name === 'Clock') return <svg {...common}><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></svg>
+  if (name === 'Pdf') return <svg {...common}><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><polyline points="14 2 14 8 20 8" /><line x1="8" y1="13" x2="16" y2="13" /><line x1="8" y1="17" x2="16" y2="17" /></svg>
+  if (name === 'Send') return <svg {...common}><line x1="22" y1="2" x2="11" y2="13" /><polygon points="22 2 15 22 11 13 2 9 22 2" /></svg>
+  return <svg {...common}><path d="M4 18 10 12l4 4 6-8" /><path d="M15 8h5v5" /></svg>
 }
 
 interface Props {
@@ -30,10 +44,10 @@ export default function LandingPage({ t, lang }: Props) {
           </a>
 
           <nav className="hidden items-center gap-7 text-sm font-medium text-[#64748B] lg:flex">
-            <a href="#product" className="transition hover:text-[#6D35F5]">{t.header.nav.product}</a>
-            <a href="#modules" className="transition hover:text-[#6D35F5]">{t.header.nav.modules}</a>
-            <a href="#pricing" className="transition hover:text-[#6D35F5]">{t.header.nav.pricing}</a>
-            <a href="#contact" className="transition hover:text-[#6D35F5]">{t.header.nav.contact}</a>
+            <a href="#riesenia" className="transition hover:text-[#6D35F5]">{t.header.nav.solutions}</a>
+            <a href="#o-nas" className="transition hover:text-[#6D35F5]">{t.header.nav.about}</a>
+            <a href="#preco" className="transition hover:text-[#6D35F5]">{t.header.nav.why}</a>
+            <a href="/offergen-early-access" className="transition hover:text-[#6D35F5]">{t.header.nav.offergen}</a>
           </nav>
 
           <div className="flex items-center gap-3">
@@ -65,7 +79,7 @@ export default function LandingPage({ t, lang }: Props) {
       {/* ── Hero ── */}
       <section className="mx-auto grid max-w-7xl items-center gap-10 px-5 pb-20 pt-14 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:gap-12 lg:pb-28 lg:pt-20">
         <div>
-          <div className="mb-6 inline-flex rounded-full border border-[#E5E7EB] bg-white px-4 py-2 text-sm font-semibold text-[#6D35F5] shadow-sm">
+          <div className="mb-6 inline-flex rounded-full border border-[#DDD4FF] bg-[#EEE8FF] px-4 py-2 text-sm font-semibold text-[#6D35F5]">
             {t.hero.badge}
           </div>
 
@@ -78,7 +92,7 @@ export default function LandingPage({ t, lang }: Props) {
 
           <div className="mt-8">
             <a
-              href="#beta"
+              href="#riesenia"
               className="inline-block rounded-2xl bg-[#6D35F5] px-7 py-4 text-center text-sm font-bold text-white shadow-xl shadow-[#6D35F5]/20 transition hover:-translate-y-0.5 hover:bg-[#5B27D9]"
             >
               {t.hero.cta1}
@@ -95,82 +109,84 @@ export default function LandingPage({ t, lang }: Props) {
         </div>
       </section>
 
-      {/* ── Product benefits ── */}
-      <section id="product" className="bg-white">
-        <div className="mx-auto max-w-7xl px-5 py-20 sm:px-6 lg:py-24">
-          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
-            {t.product.cards.map((card) => (
-              <article
-                key={card.title}
-                className="rounded-[1.75rem] border border-[#E5E7EB] bg-white p-7 shadow-[0_18px_45px_rgba(15,23,42,0.06)]"
-              >
-                <div className="mb-6 h-11 w-11 rounded-2xl bg-[#EEE8FF]" />
-                <h2 className="text-xl font-bold text-[#0F172A]">{card.title}</h2>
-                <p className="mt-3 leading-7 text-[#64748B]">{card.description}</p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── Modules ── */}
-      <section id="modules" className="bg-[#F7F5FF]">
+      {/* ── Solutions ── */}
+      <section id="riesenia" className="bg-[#F7F5FF]">
         <div className="mx-auto max-w-7xl px-5 py-20 sm:px-6 lg:py-24">
           <div className="max-w-3xl">
-            <h2 className="text-3xl font-black tracking-tight text-[#0F172A] sm:text-4xl">{t.modules.title}</h2>
-            <p className="mt-4 text-lg leading-8 text-[#64748B]">{t.modules.subtitle}</p>
+            <h2 className="text-3xl font-black tracking-tight text-[#0F172A] sm:text-4xl">{t.solutions.title}</h2>
+            <p className="mt-4 text-lg leading-8 text-[#64748B]">{t.solutions.subtitle}</p>
           </div>
 
           <div className="mt-10 grid gap-5 md:grid-cols-3">
-            {t.modules.items.map((module) => (
+            {t.solutions.items.map((item) => (
               <article
-                key={module.name}
+                key={item.name}
                 className="rounded-[1.75rem] border border-[#E5E7EB] bg-white p-7 shadow-[0_18px_45px_rgba(15,23,42,0.06)] transition hover:-translate-y-1 hover:shadow-[0_24px_55px_rgba(109,53,245,0.12)]"
               >
-                <div className={`mb-4 inline-flex rounded-full px-3 py-1 text-xs font-bold ${badgeStyles[module.badgeColor] ?? badgeStyles.gray}`}>
-                  {module.badge}
+                <div className={`mb-4 inline-flex rounded-full px-3 py-1 text-xs font-bold ${badgeStyles[item.badgeColor] ?? badgeStyles.gray}`}>
+                  {item.badge}
                 </div>
-                <h3 className="text-2xl font-bold text-[#0F172A]">{module.name}</h3>
-                <p className="mt-4 leading-7 text-[#64748B]">{module.description}</p>
+                <h3 className="text-2xl font-bold text-[#0F172A]">{item.name}</h3>
+                <p className="mt-4 leading-7 text-[#64748B]">{item.description}</p>
               </article>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ── Beta form ── */}
-      <section id="beta" className="bg-white">
-        <div className="mx-auto max-w-2xl px-5 py-20 sm:px-6 lg:py-24">
-          <div className="mb-3 text-center">
-            <span className="inline-flex rounded-full bg-[#EEE8FF] px-4 py-1.5 text-xs font-bold uppercase tracking-[0.16em] text-[#6D35F5]">
-              {t.pricing.badge}
-            </span>
-          </div>
-          <h2 className="mb-2 text-center text-3xl font-black tracking-tight text-[#0F172A] sm:text-4xl">
-            {t.betaForm.title}
+      {/* ── About ── */}
+      <section id="o-nas" className="bg-white">
+        <div className="mx-auto max-w-4xl px-5 py-20 sm:px-6 lg:py-24">
+          <p className="text-sm font-black uppercase tracking-[0.14em] text-[#6D35F5]">{t.about.label}</p>
+          <h2 className="mt-3 text-3xl font-black leading-tight text-[#0F172A] sm:text-4xl">
+            {t.about.title}
           </h2>
-          <p className="mb-10 text-center text-lg leading-8 text-[#64748B]">{t.betaForm.description}</p>
-          <BetaForm t={t.betaForm} />
+          <div className="mt-6 space-y-5 text-lg font-medium leading-8 text-[#475569]">
+            <p>{t.about.body1}</p>
+            <p>{t.about.body2}</p>
+          </div>
         </div>
       </section>
 
-      {/* ── Contact ── */}
-      <section id="contact" className="bg-[#FAF8FF]">
-        <div className="mx-auto max-w-5xl px-5 py-20 text-center sm:px-6 lg:py-24">
-          <h2 className="text-3xl font-black tracking-tight text-[#0F172A] sm:text-4xl">{t.contact.title}</h2>
-          <p className="mx-auto mt-4 max-w-2xl text-lg leading-8 text-[#64748B]">{t.contact.description}</p>
-          <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+      {/* ── Why Navaro ── */}
+      <section id="preco" className="bg-[#F8FAFC]">
+        <div className="mx-auto max-w-7xl px-5 py-20 sm:px-6 lg:py-24">
+          <div className="max-w-3xl">
+            <p className="text-sm font-black uppercase tracking-[0.14em] text-[#6D35F5]">{t.why.label}</p>
+            <h2 className="mt-3 text-3xl font-black leading-tight text-[#0F172A] sm:text-4xl">
+              {t.why.title}
+            </h2>
+          </div>
+          <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+            {t.why.items.map((item) => (
+              <article key={item.title} className="rounded-[1.75rem] border border-[#E5E7EB] bg-white p-7 shadow-[0_18px_45px_rgba(15,23,42,0.06)]">
+                <div className="mb-5 flex h-11 w-11 items-center justify-center rounded-lg bg-[#EEE8FF] text-[#6D35F5]">
+                  <Icon name={item.icon} />
+                </div>
+                <h3 className="text-lg font-black text-[#0F172A]">{item.title}</h3>
+                <p className="mt-3 text-sm font-medium leading-6 text-[#64748B]">{item.text}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Early Access CTA ── */}
+      <section className="bg-white">
+        <div className="mx-auto max-w-7xl px-5 py-20 sm:px-6 lg:py-24">
+          <div className="grid gap-6 rounded-2xl border border-[#DDD4FF] bg-[#F5F3FF] p-6 sm:p-8 lg:grid-cols-[1fr_auto] lg:items-center">
+            <div>
+              <p className="text-sm font-black uppercase tracking-[0.14em] text-[#6D35F5]">{t.earlyAccess.label}</p>
+              <h2 className="mt-3 text-3xl font-black text-[#0F172A]">{t.earlyAccess.title}</h2>
+              <p className="mt-3 text-base font-medium leading-7 text-[#475569]">
+                {t.earlyAccess.description}
+              </p>
+            </div>
             <a
-              href="#beta"
-              className="rounded-2xl bg-[#6D35F5] px-7 py-4 text-sm font-bold text-white shadow-xl shadow-[#6D35F5]/20 transition hover:bg-[#5B27D9]"
+              href="/offergen-early-access"
+              className="inline-flex items-center justify-center rounded-full bg-[#6D35F5] px-6 py-3 text-sm font-bold text-white shadow-lg shadow-[#6D35F5]/20 transition hover:bg-[#5B27D9]"
             >
-              {t.contact.cta1}
-            </a>
-            <a
-              href={contactUrl}
-              className="rounded-2xl border border-[#E5E7EB] bg-white px-7 py-4 text-sm font-bold text-[#0F172A] shadow-sm transition hover:border-[#6D35F5] hover:text-[#6D35F5]"
-            >
-              {t.contact.cta2}
+              {t.earlyAccess.cta}
             </a>
           </div>
         </div>
@@ -181,8 +197,8 @@ export default function LandingPage({ t, lang }: Props) {
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 text-sm text-[#64748B] md:flex-row">
           <p>{t.footer.copyright}</p>
           <div className="flex gap-5">
-            <a href="#beta" className="transition hover:text-[#6D35F5]">{t.hero.cta1}</a>
-            <a href={contactUrl} className="transition hover:text-[#6D35F5]">{t.header.nav.contact}</a>
+            <a href="/offergen-early-access" className="transition hover:text-[#6D35F5]">{t.header.nav.offergen}</a>
+            <a href="mailto:info@navaro.pro" className="transition hover:text-[#6D35F5]">{t.header.nav.about}</a>
           </div>
         </div>
       </footer>

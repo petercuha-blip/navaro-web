@@ -1,54 +1,34 @@
 {
   "meta": {
-    "title": "Navaro – professional AI-powered quotes",
-    "description": "Create professional quotes with AI in minutes. Export as PDF, send to your customer and track their decision in real time."
+    "title": "Navaro – simple tools for business processes",
+    "description": "Navaro helps companies simplify business processes with simple tools that save time."
   },
   "header": {
     "logo": "Navaro",
     "nav": {
-      "product": "Product",
-      "modules": "Modules",
-      "pricing": "Pricing",
-      "contact": "Contact"
+      "solutions": "Solutions",
+      "about": "About",
+      "why": "Why Navaro",
+      "offergen": "OfferGen"
     },
     "login": "Log in"
   },
   "hero": {
-    "badge": "Modular SaaS platform for business automation",
+    "badge": "Simple tools for business processes",
     "h1_1": "Less admin.",
     "h1_2": "More business.",
-    "subtext": "Create professional quotes with AI in minutes. Export as PDF, send to your customer and track their decision in real time.",
-    "cta1": "Try for free"
+    "subtext": "Navaro helps companies simplify business processes with simple tools that save time.",
+    "cta1": "See solutions"
   },
-  "product": {
-    "cards": [
-      {
-        "title": "AI content generation",
-        "description": "Navaro creates intro, summary, bullet points and business copy based on your brief."
-      },
-      {
-        "title": "Professional PDFs",
-        "description": "Professional PDF quotes with your logo, pricing breakdown and VAT. Multiple templates to choose from."
-      },
-      {
-        "title": "One-click sending",
-        "description": "Send the quote to your customer via email directly from the app. They open, approve or decline it."
-      },
-      {
-        "title": "Real-time tracking",
-        "description": "Track your quote status in real time. Know when a customer opened, approved or requested changes."
-      }
-    ]
-  },
-  "modules": {
-    "title": "Modules your business actually needs",
+  "solutions": {
+    "title": "Solutions your business actually needs.",
     "subtitle": "Navaro adapts to your business. You only pay for what you use.",
     "items": [
       {
         "name": "OfferGen",
-        "badge": "Available",
+        "badge": "Early Access",
         "badgeColor": "green",
-        "description": "Create and manage quotes with AI, PDF export, send to customer, track status."
+        "description": "Create professional quotes, PDF export, send to customer and track status."
       },
       {
         "name": "InvoiceGen",
@@ -60,14 +40,46 @@
         "name": "More modules",
         "badge": "Planned",
         "badgeColor": "gray",
-        "description": "The platform is modular — more automation tools are on the way."
+        "description": "We're preparing more simple tools for business processes and everyday admin."
       }
     ]
   },
-  "pricing": {
-    "badge": "Beta program",
-    "title": "We're looking for beta testers!",
-    "description": "Get free access in exchange for your feedback.",
+  "about": {
+    "label": "About us",
+    "title": "Software should solve real problems.",
+    "body1": "We believe software should solve real problems, not add more complexity.",
+    "body2": "That's why every Navaro module is built from real business needs — to save time, simplify daily work, and help people focus on what matters."
+  },
+  "why": {
+    "label": "Why Navaro",
+    "title": "A practical approach without unnecessary complexity.",
+    "items": [
+      {
+        "icon": "Clock",
+        "title": "We start with the problem",
+        "text": "First we find where your business loses time, then we suggest a solution."
+      },
+      {
+        "icon": "Pdf",
+        "title": "We keep it simple",
+        "text": "Modules are designed to be understood and used quickly without unnecessary complexity."
+      },
+      {
+        "icon": "Send",
+        "title": "We save time",
+        "text": "Repetitive steps, documents and sending are handled faster and with fewer errors."
+      },
+      {
+        "icon": "Trend",
+        "title": "You choose only what you need",
+        "text": "Navaro is modular. Use only the tools that make sense for your business."
+      }
+    ]
+  },
+  "earlyAccess": {
+    "label": "OfferGen Early Access",
+    "title": "Become a Founding Partner of Navaro",
+    "description": "Help us build the best tool for creating quotes.",
     "cta": "I want to join"
   },
   "betaForm": {
@@ -81,12 +93,6 @@
     "submitting": "Sending...",
     "success": "Thank you! We'll be in touch soon with your invite.",
     "error": "Something went wrong. Please contact us at info@navaro.pro."
-  },
-  "contact": {
-    "title": "Start with quotes that look professional and are under control.",
-    "description": "Book a demo or open the app and see OfferGen in action.",
-    "cta1": "Try for free",
-    "cta2": "Contact"
   },
   "footer": {
     "copyright": "© 2025–2026 Navaro. All rights reserved."
