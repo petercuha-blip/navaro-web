@@ -82,6 +82,25 @@
     "description": "Pomôžte nám vytvoriť najlepší nástroj na tvorbu cenových ponúk.",
     "cta": "Chcem sa zapojiť"
   },
+  "offergenEarlyAccess": {
+    "badge": "OfferGen Early Access",
+    "h1": "Staňte sa Founding Partnerom Navaro",
+    "subtext": "Pomôžte nám vytvoriť najlepší nástroj na tvorbu cenových ponúk.",
+    "cta": "Chcem sa zapojiť",
+    "body1": "Vyvíjame OfferGen, jednoduchý nástroj, ktorý pomáha firmám vytvárať profesionálne cenové ponuky za pár minút.",
+    "body2": "Teraz hľadáme prvé firmy, ktoré chcú byť pri jeho vzniku.",
+    "body3": "Vaša spätná väzba bude priamo ovplyvňovať ďalší vývoj produktu.",
+    "benefitsLabel": "Čo získate",
+    "benefitsTitle": "Skorý prístup a reálny vplyv na produkt.",
+    "benefits": [
+      "Bezplatný prístup počas beta verzie",
+      "Priamy kontakt s vývojárom",
+      "Možnosť ovplyvniť budúce funkcie",
+      "Zvýhodnené podmienky po spustení",
+      "Prístup k produktu ešte pred verejným uvedením"
+    ],
+    "login": "Prihlásenie"
+  },
   "betaForm": {
     "title": "Požiadať o beta prístup",
     "description": "Vyplňte formulár a my vám pošleme pozvánku do beta programu.",

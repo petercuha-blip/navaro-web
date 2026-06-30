@@ -82,6 +82,25 @@
     "description": "Pomóż nam stworzyć najlepsze narzędzie do tworzenia ofert cenowych.",
     "cta": "Chcę dołączyć"
   },
+  "offergenEarlyAccess": {
+    "badge": "OfferGen Early Access",
+    "h1": "Zostań Founding Partnerem Navaro",
+    "subtext": "Pomóż nam stworzyć najlepsze narzędzie do tworzenia ofert cenowych.",
+    "cta": "Chcę dołączyć",
+    "body1": "Tworzymy OfferGen, proste narzędzie, które pomaga firmom tworzyć profesjonalne oferty cenowe w kilka minut.",
+    "body2": "Szukamy teraz pierwszych firm, które chcą być przy jego tworzeniu.",
+    "body3": "Twoja opinia będzie bezpośrednio kształtować dalszy rozwój produktu.",
+    "benefitsLabel": "Co zyskujesz",
+    "benefitsTitle": "Wczesny dostęp i realny wpływ na produkt.",
+    "benefits": [
+      "Bezpłatny dostęp podczas wersji beta",
+      "Bezpośredni kontakt z deweloperem",
+      "Możliwość wpływu na przyszłe funkcje",
+      "Preferencyjne warunki po uruchomieniu",
+      "Dostęp do produktu przed publicznym wprowadzeniem"
+    ],
+    "login": "Zaloguj się"
+  },
   "betaForm": {
     "title": "Poproś o dostęp beta",
     "description": "Wypełnij formularz, a my wyślemy Ci zaproszenie do programu beta.",

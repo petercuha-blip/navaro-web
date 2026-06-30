@@ -82,6 +82,25 @@
     "description": "Help us build the best tool for creating quotes.",
     "cta": "I want to join"
   },
+  "offergenEarlyAccess": {
+    "badge": "OfferGen Early Access",
+    "h1": "Become a Founding Partner of Navaro",
+    "subtext": "Help us build the best tool for creating quotes.",
+    "cta": "I want to join",
+    "body1": "We're building OfferGen, a simple tool that helps businesses create professional quotes in minutes.",
+    "body2": "We're now looking for the first companies who want to be part of its creation.",
+    "body3": "Your feedback will directly shape the future development of the product.",
+    "benefitsLabel": "What you get",
+    "benefitsTitle": "Early access and real influence on the product.",
+    "benefits": [
+      "Free access during the beta period",
+      "Direct contact with the developer",
+      "Ability to influence future features",
+      "Preferential terms after launch",
+      "Access to the product before public release"
+    ],
+    "login": "Log in"
+  },
   "betaForm": {
     "title": "Request beta access",
     "description": "Fill in the form and we'll send you a beta invite.",

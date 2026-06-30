@@ -30,6 +30,7 @@ interface Props {
 }
 
 export default function LandingPage({ t, lang }: Props) {
+  const earlyAccessUrl = lang === 'sk' ? '/offergen-early-access' : `/${lang}/offergen-early-access`
   return (
     <main className="min-h-screen overflow-x-hidden bg-[#FAF8FF] text-[#0F172A]">
 
@@ -47,7 +48,7 @@ export default function LandingPage({ t, lang }: Props) {
             <a href="#riesenia" className="transition hover:text-[#6D35F5]">{t.header.nav.solutions}</a>
             <a href="#o-nas" className="transition hover:text-[#6D35F5]">{t.header.nav.about}</a>
             <a href="#preco" className="transition hover:text-[#6D35F5]">{t.header.nav.why}</a>
-            <a href="/offergen-early-access" className="transition hover:text-[#6D35F5]">{t.header.nav.offergen}</a>
+            <a href={earlyAccessUrl} className="transition hover:text-[#6D35F5]">{t.header.nav.offergen}</a>
           </nav>
 
           <div className="flex items-center gap-3">
@@ -183,7 +184,7 @@ export default function LandingPage({ t, lang }: Props) {
               </p>
             </div>
             <a
-              href="/offergen-early-access"
+              href={earlyAccessUrl}
               className="inline-flex items-center justify-center rounded-full bg-[#6D35F5] px-6 py-3 text-sm font-bold text-white shadow-lg shadow-[#6D35F5]/20 transition hover:bg-[#5B27D9]"
             >
               {t.earlyAccess.cta}
@@ -197,7 +198,7 @@ export default function LandingPage({ t, lang }: Props) {
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 text-sm text-[#64748B] md:flex-row">
           <p>{t.footer.copyright}</p>
           <div className="flex gap-5">
-            <a href="/offergen-early-access" className="transition hover:text-[#6D35F5]">{t.header.nav.offergen}</a>
+            <a href={earlyAccessUrl} className="transition hover:text-[#6D35F5]">{t.header.nav.offergen}</a>
             <a href="mailto:info@navaro.pro" className="transition hover:text-[#6D35F5]">{t.header.nav.about}</a>
           </div>
         </div>
