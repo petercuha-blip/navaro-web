@@ -31,6 +31,7 @@ interface Props {
 
 export default function LandingPage({ t, lang }: Props) {
   const earlyAccessUrl = lang === 'sk' ? '/offergen-early-access' : `/${lang}/offergen-early-access`
+  const businessCircleUrl = '/circle'
   return (
     <main className="min-h-screen overflow-x-hidden bg-[#FAF8FF] text-[#0F172A]">
 
@@ -49,6 +50,7 @@ export default function LandingPage({ t, lang }: Props) {
             <a href="#o-nas" className="transition hover:text-[#6D35F5]">{t.header.nav.about}</a>
             <a href="#preco" className="transition hover:text-[#6D35F5]">{t.header.nav.why}</a>
             <a href={earlyAccessUrl} className="transition hover:text-[#6D35F5]">{t.header.nav.offergen}</a>
+            <a href={businessCircleUrl} className="transition hover:text-[#6D35F5]">{t.header.nav.circle}</a>
           </nav>
 
           <div className="flex items-center gap-3">
@@ -199,6 +201,7 @@ export default function LandingPage({ t, lang }: Props) {
           <p>{t.footer.copyright}</p>
           <div className="flex gap-5">
             <a href={earlyAccessUrl} className="transition hover:text-[#6D35F5]">{t.header.nav.offergen}</a>
+            <a href={businessCircleUrl} className="transition hover:text-[#6D35F5]">{t.header.nav.circle}</a>
             <a href="mailto:info@navaro.pro" className="transition hover:text-[#6D35F5]">{t.header.nav.about}</a>
           </div>
         </div>

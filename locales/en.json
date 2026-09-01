@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Navaro – simple tools for business processes",
-    "description": "Navaro helps companies simplify business processes with simple tools that save time."
+    "title": "Navaro – sales workspace for quotes, companies and relationships",
+    "description": "Navaro helps sales teams manage companies, contacts, relationships, discovery and professional quotes in one workspace."
   },
   "header": {
     "logo": "Navaro",
@@ -9,78 +9,79 @@
       "solutions": "Solutions",
       "about": "About",
       "why": "Why Navaro",
-      "offergen": "OfferGen"
+      "offergen": "OfferGen",
+      "circle": "Business Circle"
     },
     "login": "Log in"
   },
   "hero": {
-    "badge": "Simple tools for business processes",
-    "h1_1": "Less admin.",
-    "h1_2": "More business.",
-    "subtext": "Navaro helps companies simplify business processes with simple tools that save time.",
-    "cta1": "See solutions"
+    "badge": "NAVARO Beta is ready for testing",
+    "h1_1": "Sales context.",
+    "h1_2": "Quotes without chaos.",
+    "subtext": "Navaro brings Company Record, contacts, relationships, discovery review and OfferGen into one workspace, so sales teams can work with current data and prepare better quotes faster.",
+    "cta1": "See the current MVP"
   },
   "solutions": {
-    "title": "Solutions your business actually needs.",
-    "subtitle": "Navaro adapts to your business. You only pay for what you use.",
+    "title": "What is ready today in NAVARO Beta.",
+    "subtitle": "The current product foundation focuses on the sales workflow from company and contacts to quote, audit and discovery signals.",
     "items": [
       {
         "name": "OfferGen",
-        "badge": "Early Access",
+        "badge": "Testable",
         "badgeColor": "green",
-        "description": "Create professional quotes, PDF export, send to customer and track status."
+        "description": "Create and manage quotes with PDF export, sending, statuses, public offer links and company context attached."
       },
       {
-        "name": "InvoiceGen",
-        "badge": "Coming soon",
+        "name": "Company Record & Relationships",
+        "badge": "Ready in beta foundation",
+        "badgeColor": "green",
+        "description": "Company profiles, contacts and Relationship Hub give the sales team one view of the customer, relationships and relevant business context."
+      },
+      {
+        "name": "Discovery & DMF",
+        "badge": "Tuning",
         "badgeColor": "orange",
-        "description": "Invoicing with automatic numbering, VAT calculation and PDF export."
-      },
-      {
-        "name": "More modules",
-        "badge": "Planned",
-        "badgeColor": "gray",
-        "description": "We're preparing more simple tools for business processes and everyday admin."
+        "description": "Discovery Review and the DMF foundation are ready as a base for systematic signal processing, audit and future sales recommendations."
       }
     ]
   },
   "about": {
     "label": "About us",
-    "title": "Software should solve real problems.",
-    "body1": "We believe software should solve real problems, not add more complexity.",
-    "body2": "That's why every Navaro module is built from real business needs — to save time, simplify daily work, and help people focus on what matters."
+    "title": "Navaro is built from real sales workflows.",
+    "body1": "The product is not a generic CRM. We focus on the moments where companies lose time: outdated data, scattered contacts, unclear relationships and manual quote preparation.",
+    "body2": "That is why we connect the application, admin operations and Business Circle discovery. We validate needs with companies first, then turn them into simple working tools."
   },
   "why": {
     "label": "Why Navaro",
-    "title": "A practical approach without unnecessary complexity.",
+    "title": "One workflow instead of isolated spreadsheets and documents.",
     "items": [
       {
         "icon": "Clock",
-        "title": "We start with the problem",
-        "text": "First we find where your business loses time, then we suggest a solution."
+        "title": "Faster quote preparation",
+        "text": "OfferGen reduces repeated administration around creating, exporting and sending business quotes."
       },
       {
         "icon": "Pdf",
-        "title": "We keep it simple",
-        "text": "Modules are designed to be understood and used quickly without unnecessary complexity."
+        "title": "Data stays with companies and contacts",
+        "text": "Company Record, contacts and relationships keep sales context together instead of scattered notes."
       },
       {
         "icon": "Send",
-        "title": "We save time",
-        "text": "Repetitive steps, documents and sending are handled faster and with fewer errors."
+        "title": "Audit and controlled workflow",
+        "text": "Workspace membership lifecycle, UI and audit are ready for more controlled beta team operations."
       },
       {
         "icon": "Trend",
-        "title": "You choose only what you need",
-        "text": "Navaro is modular. Use only the tools that make sense for your business."
+        "title": "Discovery drives the roadmap",
+        "text": "Discovery Review, the DMF foundation and Business Circle help validate what has real value for companies."
       }
     ]
   },
   "earlyAccess": {
-    "label": "OfferGen Early Access",
-    "title": "Become a Founding Partner of Navaro",
-    "description": "Help us build the best tool for creating quotes.",
-    "cta": "I want to join"
+    "label": "NAVARO Beta",
+    "title": "Join testing of the sales workspace",
+    "description": "We are looking for companies that want to test OfferGen with company context, contacts, relationships and discovery workflow.",
+    "cta": "Request beta access"
   },
   "offergenEarlyAccess": {
     "badge": "OfferGen Early Access",

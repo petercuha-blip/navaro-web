@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import BusinessCirclePage from "@/components/BusinessCirclePage";
 
 const PAGE_URL = "https://navaro.pro/circle";
-const PAGE_TITLE = "Navaro Business Circle #001 | Cenové ponuky pod kontrolou";
+const PAGE_TITLE = "Navaro Business Circle | Členovia, témy a obchodné discovery";
 const PAGE_DESCRIPTION =
-  "Malá online diskusia podnikateľov a manažérov o tom, kde firmy strácajú čas pri tvorbe cenových ponúk a čo sa dá robiť jednoduchšie.";
+  "Navaro Business Circle spája malé tematické stretnutia, profily členov, ponuky, dopyty a moderované obchodné discovery.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,

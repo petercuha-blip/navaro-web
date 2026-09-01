@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Navaro – jednoduché nástroje pre obchodné procesy",
-    "description": "Navaro pomáha firmám zjednodušiť obchodné procesy pomocou jednoduchých nástrojov, ktoré šetria čas."
+    "title": "Navaro – obchodný workspace pre ponuky, firmy a vzťahy",
+    "description": "Navaro pomáha obchodným tímom spravovať firmy, kontakty, vzťahy, discovery a profesionálne cenové ponuky v jednom pracovnom priestore."
   },
   "header": {
     "logo": "Navaro",
@@ -9,78 +9,79 @@
       "solutions": "Riešenia",
       "about": "O nás",
       "why": "Prečo Navaro",
-      "offergen": "OfferGen"
+      "offergen": "OfferGen",
+      "circle": "Business Circle"
     },
     "login": "Prihlásenie"
   },
   "hero": {
-    "badge": "Jednoduché nástroje pre obchodné procesy",
-    "h1_1": "Menej administratívy.",
-    "h1_2": "Viac obchodu.",
-    "subtext": "Navaro pomáha firmám zjednodušiť obchodné procesy pomocou jednoduchých nástrojov, ktoré šetria čas.",
-    "cta1": "Pozrieť riešenia"
+    "badge": "NAVARO Beta je pripravené na testovanie",
+    "h1_1": "Obchodný kontext.",
+    "h1_2": "Ponuky bez chaosu.",
+    "subtext": "Navaro spája Company Record, kontakty, vzťahy, discovery review a OfferGen do jedného workspace, aby obchodné tímy pracovali s aktuálnymi dátami a vedeli rýchlejšie pripraviť kvalitnú ponuku.",
+    "cta1": "Pozrieť aktuálny MVP"
   },
   "solutions": {
-    "title": "Riešenia, ktoré vaša firma skutočne potrebuje.",
-    "subtitle": "Navaro sa prispôsobí vášmu biznisu. Platíte len za to, čo používate.",
+    "title": "Čo je dnes pripravené v NAVARO Beta.",
+    "subtitle": "Aktuálny produktový základ je zameraný na obchodný workflow od firmy a kontaktov až po ponuku, audit a discovery signály.",
     "items": [
       {
         "name": "OfferGen",
-        "badge": "Early Access",
+        "badge": "Testovateľné",
         "badgeColor": "green",
-        "description": "Tvorba profesionálnych cenových ponúk, PDF export, odoslanie zákazníkovi a sledovanie statusu."
+        "description": "Tvorba a správa cenových ponúk s PDF exportom, odosielaním, statusmi, verejnými offer linkami a naviazaním na firemný kontext."
       },
       {
-        "name": "InvoiceGen",
-        "badge": "Čoskoro",
+        "name": "Company Record & Relationships",
+        "badge": "Hotové v beta základe",
+        "badgeColor": "green",
+        "description": "Firemný profil, kontakty a Relationship Hub dávajú obchodnému tímu jeden prehľad o zákazníkovi, väzbách a relevantných obchodných súvislostiach."
+      },
+      {
+        "name": "Discovery & DMF",
+        "badge": "Ladenie",
         "badgeColor": "orange",
-        "description": "Fakturácia s automatickým číslovaním, DPH kalkuláciou a PDF exportom."
-      },
-      {
-        "name": "Ďalšie moduly",
-        "badge": "Plánované",
-        "badgeColor": "gray",
-        "description": "Pripravujeme ďalšie jednoduché nástroje pre obchodné procesy a každodennú administratívu."
+        "description": "Discovery Review a DMF foundation sú pripravené ako základ pre systematické spracovanie signálov, audit a ďalšie odporúčania v obchodnom procese."
       }
     ]
   },
   "about": {
     "label": "O nás",
-    "title": "Softvér má riešiť skutočné problémy.",
-    "body1": "Veríme, že softvér má riešiť skutočné problémy, nie pridávať ďalšiu zložitosť.",
-    "body2": "Preto každý modul Navaro vzniká z reálnych potrieb firiem a jeho cieľom je ušetriť čas, zjednodušiť každodennú prácu a pomôcť ľuďom sústrediť sa na to, čo je dôležité."
+    "title": "Navaro staviame z reálnych obchodných procesov.",
+    "body1": "Produkt nevzniká ako všeobecný CRM systém. Zameriavame sa na konkrétne momenty, kde firmy strácajú čas: neaktuálne údaje, roztrúsené kontakty, nejasné vzťahy a ručnú prípravu ponúk.",
+    "body2": "Preto kombinujeme aplikáciu, admin operácie a Business Circle discovery. Najprv overujeme potreby s firmami, potom ich pretavujeme do jednoduchých pracovných nástrojov."
   },
   "why": {
     "label": "Prečo Navaro",
-    "title": "Praktický prístup bez zbytočnej zložitosti.",
+    "title": "Jeden pracovný tok namiesto izolovaných tabuliek a dokumentov.",
     "items": [
       {
         "icon": "Clock",
-        "title": "Začíname problémom",
-        "text": "Najprv hľadáme miesto, kde firma stráca čas, a až potom navrhujeme riešenie."
+        "title": "Rýchlejšia príprava ponúk",
+        "text": "OfferGen skracuje opakovanú administratívu pri tvorbe, exporte a odosielaní obchodných ponúk."
       },
       {
         "icon": "Pdf",
-        "title": "Riešime jednoducho",
-        "text": "Moduly sú navrhnuté tak, aby sa dali rýchlo pochopiť a používať bez zbytočnej zložitosti."
+        "title": "Dáta pri firme a kontakte",
+        "text": "Company Record, kontakty a vzťahy držia obchodný kontext pohromade namiesto roztrúsených poznámok."
       },
       {
         "icon": "Send",
-        "title": "Šetríme čas",
-        "text": "Opakované kroky, dokumenty a odosielanie vybavíte rýchlejšie a s menším počtom chýb."
+        "title": "Audit a bezpečný workflow",
+        "text": "Workspace membership lifecycle, UI a audit sú pripravené na kontrolovanejšiu beta prevádzku tímov."
       },
       {
         "icon": "Trend",
-        "title": "Vyberiete si iba to, čo potrebujete",
-        "text": "Navaro je modulárne. Používate len nástroje, ktoré majú pre vašu firmu zmysel."
+        "title": "Discovery poháňa roadmapu",
+        "text": "Discovery Review, DMF foundation a Business Circle pomáhajú overovať, čo má reálnu hodnotu pre firmy."
       }
     ]
   },
   "earlyAccess": {
-    "label": "OfferGen Early Access",
-    "title": "Staňte sa Founding Partnerom Navaro",
-    "description": "Pomôžte nám vytvoriť najlepší nástroj na tvorbu cenových ponúk.",
-    "cta": "Chcem sa zapojiť"
+    "label": "NAVARO Beta",
+    "title": "Zapojte sa do testovania obchodného workspace",
+    "description": "Hľadáme firmy, ktoré chcú testovať OfferGen s firemným kontextom, kontaktmi, vzťahmi a discovery workflow.",
+    "cta": "Požiadať o beta prístup"
   },
   "offergenEarlyAccess": {
     "badge": "OfferGen Early Access",

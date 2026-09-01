@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Navaro – proste narzędzia dla procesów biznesowych",
-    "description": "Navaro pomaga firmom uprościć procesy biznesowe za pomocą prostych narzędzi, które oszczędzają czas."
+    "title": "Navaro – workspace sprzedażowy dla ofert, firm i relacji",
+    "description": "Navaro pomaga zespołom sprzedaży zarządzać firmami, kontaktami, relacjami, discovery i profesjonalnymi ofertami w jednym miejscu."
   },
   "header": {
     "logo": "Navaro",
@@ -9,78 +9,79 @@
       "solutions": "Rozwiązania",
       "about": "O nas",
       "why": "Dlaczego Navaro",
-      "offergen": "OfferGen"
+      "offergen": "OfferGen",
+      "circle": "Business Circle"
     },
     "login": "Zaloguj się"
   },
   "hero": {
-    "badge": "Proste narzędzia dla procesów biznesowych",
-    "h1_1": "Mniej administracji.",
-    "h1_2": "Więcej biznesu.",
-    "subtext": "Navaro pomaga firmom uprościć procesy biznesowe za pomocą prostych narzędzi, które oszczędzają czas.",
-    "cta1": "Zobacz rozwiązania"
+    "badge": "NAVARO Beta jest gotowe do testów",
+    "h1_1": "Kontekst sprzedaży.",
+    "h1_2": "Oferty bez chaosu.",
+    "subtext": "Navaro łączy Company Record, kontakty, relacje, discovery review i OfferGen w jednym workspace, aby zespoły sprzedaży pracowały na aktualnych danych i szybciej przygotowywały lepsze oferty.",
+    "cta1": "Zobacz aktualne MVP"
   },
   "solutions": {
-    "title": "Rozwiązania, których Twoja firma naprawdę potrzebuje.",
-    "subtitle": "Navaro dostosowuje się do Twojego biznesu. Płacisz tylko za to, czego używasz.",
+    "title": "Co jest dziś gotowe w NAVARO Beta.",
+    "subtitle": "Aktualna podstawa produktu skupia się na workflow sprzedażowym od firmy i kontaktów po ofertę, audyt i sygnały discovery.",
     "items": [
       {
         "name": "OfferGen",
-        "badge": "Early Access",
+        "badge": "Testowalne",
         "badgeColor": "green",
-        "description": "Tworzenie profesjonalnych ofert cenowych, eksport PDF, wysyłka do klienta i śledzenie statusu."
+        "description": "Tworzenie i zarządzanie ofertami z eksportem PDF, wysyłką, statusami, publicznymi linkami ofertowymi i kontekstem firmy."
       },
       {
-        "name": "InvoiceGen",
-        "badge": "Wkrótce",
+        "name": "Company Record & Relationships",
+        "badge": "Gotowe w beta podstawie",
+        "badgeColor": "green",
+        "description": "Profile firm, kontakty i Relationship Hub dają zespołowi sprzedaży jeden widok klienta, relacji i istotnego kontekstu biznesowego."
+      },
+      {
+        "name": "Discovery & DMF",
+        "badge": "Dostrajanie",
         "badgeColor": "orange",
-        "description": "Fakturowanie z automatyczną numeracją, kalkulacją VAT i eksportem PDF."
-      },
-      {
-        "name": "Kolejne moduły",
-        "badge": "Planowane",
-        "badgeColor": "gray",
-        "description": "Przygotowujemy kolejne proste narzędzia dla procesów biznesowych i codziennej administracji."
+        "description": "Discovery Review i fundament DMF są gotowe jako baza do systematycznego przetwarzania sygnałów, audytu i przyszłych rekomendacji sprzedażowych."
       }
     ]
   },
   "about": {
     "label": "O nas",
-    "title": "Oprogramowanie powinno rozwiązywać prawdziwe problemy.",
-    "body1": "Wierzymy, że oprogramowanie powinno rozwiązywać prawdziwe problemy, a nie dodawać kolejną warstwę złożoności.",
-    "body2": "Dlatego każdy moduł Navaro powstaje z realnych potrzeb firm — aby oszczędzać czas, upraszczać codzienną pracę i pomagać ludziom skupić się na tym, co ważne."
+    "title": "Navaro budujemy z realnych procesów sprzedażowych.",
+    "body1": "Produkt nie jest ogólnym systemem CRM. Skupiamy się na momentach, w których firmy tracą czas: nieaktualne dane, rozproszone kontakty, niejasne relacje i ręczne przygotowanie ofert.",
+    "body2": "Dlatego łączymy aplikację, operacje admin i Business Circle discovery. Najpierw weryfikujemy potrzeby z firmami, a dopiero potem przekładamy je na proste narzędzia pracy."
   },
   "why": {
     "label": "Dlaczego Navaro",
-    "title": "Praktyczne podejście bez zbędnej złożoności.",
+    "title": "Jeden workflow zamiast oddzielnych arkuszy i dokumentów.",
     "items": [
       {
         "icon": "Clock",
-        "title": "Zaczynamy od problemu",
-        "text": "Najpierw szukamy miejsca, gdzie firma traci czas, a dopiero potem proponujemy rozwiązanie."
+        "title": "Szybsze przygotowanie ofert",
+        "text": "OfferGen ogranicza powtarzalną administrację przy tworzeniu, eksporcie i wysyłce ofert handlowych."
       },
       {
         "icon": "Pdf",
-        "title": "Rozwiązujemy prosto",
-        "text": "Moduły są zaprojektowane tak, aby można je było szybko zrozumieć i używać bez zbędnej złożoności."
+        "title": "Dane przy firmie i kontakcie",
+        "text": "Company Record, kontakty i relacje trzymają kontekst sprzedażowy razem zamiast w rozproszonych notatkach."
       },
       {
         "icon": "Send",
-        "title": "Oszczędzamy czas",
-        "text": "Powtarzające się kroki, dokumenty i wysyłkę załatwisz szybciej i z mniejszą liczbą błędów."
+        "title": "Audyt i kontrolowany workflow",
+        "text": "Workspace membership lifecycle, UI i audyt są gotowe do bardziej kontrolowanej pracy zespołów w becie."
       },
       {
         "icon": "Trend",
-        "title": "Wybierasz tylko to, czego potrzebujesz",
-        "text": "Navaro jest modularne. Używasz tylko narzędzi, które mają sens dla Twojej firmy."
+        "title": "Discovery napędza roadmapę",
+        "text": "Discovery Review, fundament DMF i Business Circle pomagają weryfikować, co ma realną wartość dla firm."
       }
     ]
   },
   "earlyAccess": {
-    "label": "OfferGen Early Access",
-    "title": "Zostań Founding Partnerem Navaro",
-    "description": "Pomóż nam stworzyć najlepsze narzędzie do tworzenia ofert cenowych.",
-    "cta": "Chcę dołączyć"
+    "label": "NAVARO Beta",
+    "title": "Dołącz do testów workspace sprzedażowego",
+    "description": "Szukamy firm, które chcą testować OfferGen z kontekstem firmy, kontaktami, relacjami i workflow discovery.",
+    "cta": "Poproś o dostęp beta"
   },
   "offergenEarlyAccess": {
     "badge": "OfferGen Early Access",

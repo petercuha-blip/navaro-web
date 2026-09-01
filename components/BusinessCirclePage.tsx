@@ -56,6 +56,48 @@ const agenda = [
   },
 ];
 
+const memberProfileItems = [
+  {
+    title: "Krátky profil člena",
+    text: "Meno, firma, rola, odvetvie, lokalita a stručný popis toho, čomu sa firma venuje.",
+  },
+  {
+    title: "Čo člen ponúka",
+    text: "Jasné zhrnutie služieb, produktov alebo know-how, s ktorým môže byť užitočný pre ostatných.",
+  },
+  {
+    title: "Čo člen hľadá",
+    text: "Typ partnerov, zákazníkov, dodávateľov, odporúčaní alebo tém, s ktorými chce pomôcť.",
+  },
+];
+
+const circleThemes = [
+  "Cenové ponuky a obchodný workflow",
+  "B2B akvizícia a partnerské odporúčania",
+  "Prevádzka malej firmy bez zbytočnej administratívy",
+  "Automatizácia dokumentov, follow-upov a rutinných úloh",
+  "Lokálne služby, dodávatelia a spolupráce",
+  "Founding partner feedback pre NAVARO Beta",
+];
+
+const productMvpItems = [
+  "opt-in profil člena s ponúkam / hľadám",
+  "tematické Business Circles s krátkym popisom témy",
+  "filtrovanie podľa odvetvia, lokality, ponuky, dopytu a témy",
+  "moderované zverejnenie profilu až po súhlase člena",
+  "jednoduché nahlásenie nevhodného obsahu alebo kontaktovania",
+  "ručný pilot najprv cez formulár a admin kontrolu, až potom automatizácia",
+];
+
+const promotionChannels = [
+  "samostatná sekcia na navaro.pro/circle",
+  "CTA z hlavnej stránky navaro.pro",
+  "pozvánky pre beta firmy v NAVARO app",
+  "follow-up po Business Circle stretnutí",
+  "LinkedIn príspevky zakladateľa a partnerov",
+  "email pozvánky pre existujúce kontakty a lokálne podnikateľské komunity",
+];
+
 function CheckIcon({ className = "h-5 w-5" }: { className?: string }) {
   return (
     <svg
@@ -315,6 +357,101 @@ export default function BusinessCirclePage() {
               starších verzií, odosielaním a kontrolou celého procesu.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Member profile concept */}
+      <section className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20">
+        <div className="max-w-3xl">
+          <p className="text-sm font-black uppercase tracking-[0.14em] text-[#6D35F5]">Produktový koncept</p>
+          <h2 className="mt-3 text-3xl font-black leading-tight text-[#0F172A] sm:text-4xl">
+            Profil člena má rýchlo ukázať, kto čo ponúka a čo hľadá
+          </h2>
+          <p className="mt-4 text-lg font-medium leading-8 text-[#475569]">
+            Business Circle chceme postupne rozšíriť z event formátu na dôveryhodný adresár členov,
+            kde je každý profil zverejnený iba so súhlasom a s jasným kontextom pre spoluprácu.
+          </p>
+        </div>
+
+        <div className="mt-10 grid gap-5 md:grid-cols-3">
+          {memberProfileItems.map((item) => (
+            <article key={item.title} className="rounded-xl border border-[#E5E7EB] bg-white p-6 shadow-sm">
+              <h3 className="text-lg font-black text-[#0F172A]">{item.title}</h3>
+              <p className="mt-3 text-base font-medium leading-7 text-[#64748B]">{item.text}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      {/* Discovery and themes */}
+      <section className="bg-white py-16 sm:py-20">
+        <div className="mx-auto grid max-w-7xl gap-10 px-5 sm:px-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
+          <div>
+            <p className="text-sm font-black uppercase tracking-[0.14em] text-[#6D35F5]">Discovery</p>
+            <h2 className="mt-3 text-3xl font-black leading-tight text-[#0F172A] sm:text-4xl">
+              Tematické kruhy pomôžu ľuďom nájsť relevantné kontakty
+            </h2>
+            <p className="mt-4 text-lg font-medium leading-8 text-[#475569]">
+              Každý kruh bude mať jasnú tému, krátky popis, očakávaný typ účastníkov a jednoduché
+              filtrovanie podľa toho, čo členovia ponúkajú alebo hľadajú.
+            </p>
+          </div>
+
+          <div className="grid gap-3 sm:grid-cols-2">
+            {circleThemes.map((theme) => (
+              <div key={theme} className="rounded-xl border border-[#E5E7EB] bg-[#F8FAFC] px-4 py-4 text-sm font-bold leading-6 text-[#0F172A]">
+                {theme}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* MVP rollout */}
+      <section className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20">
+        <div className="grid gap-8 lg:grid-cols-2">
+          <div className="rounded-xl border border-[#DDD4FF] bg-[#F5F3FF] p-6 sm:p-8">
+            <h2 className="text-2xl font-black leading-tight text-[#0F172A] sm:text-3xl">
+              Jednoduchý MVP rollout
+            </h2>
+            <ul className="mt-6 space-y-4">
+              {productMvpItems.map((item) => (
+                <li key={item} className="flex items-start gap-3">
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#6D35F5] text-white">
+                    <CheckIcon className="h-4 w-4" />
+                  </span>
+                  <span className="text-base font-medium leading-7 text-[#334155]">{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="rounded-xl border border-[#E5E7EB] bg-white p-6 shadow-sm sm:p-8">
+            <h2 className="text-2xl font-black leading-tight text-[#0F172A] sm:text-3xl">
+              Kde a ako to propagovať
+            </h2>
+            <ul className="mt-6 space-y-4">
+              {promotionChannels.map((item) => (
+                <li key={item} className="flex items-start gap-3">
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#E2E8F0] text-[#64748B]">
+                    <DotIcon className="h-3.5 w-3.5" />
+                  </span>
+                  <span className="text-base font-medium leading-7 text-[#334155]">{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-8 rounded-xl border border-[#E5E7EB] bg-white p-6 shadow-sm sm:p-8">
+          <h2 className="text-2xl font-black leading-tight text-[#0F172A] sm:text-3xl">
+            Súkromie a moderácia
+          </h2>
+          <p className="mt-4 text-base font-medium leading-7 text-[#475569]">
+            Profil člena nebude verejný automaticky. Člen najprv odsúhlasí, ktoré údaje sa zobrazia,
+            čo môže byť indexované vo vyhľadávaní a aký typ kontaktovania povoľuje. Navaro si ponechá
+            moderáciu profilov, tém a nahlásených interakcií, aby Business Circle zostal praktický a dôveryhodný.
+          </p>
         </div>
       </section>
 
