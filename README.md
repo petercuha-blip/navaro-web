@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NAVARO Web
 
-## Getting Started
+Public marketing and community website for NAVARO.
 
-First, run the development server:
+This repository serves the public-facing NAVARO site. It is separate from the authenticated application (`navaro-app`) and the internal beta operations dashboard (`navaro-admin`).
+
+## Product role
+
+`navaro-web` owns:
+
+- the public NAVARO landing experience;
+- SK/EN/PL localized marketing pages;
+- OfferGen early-access pages;
+- beta request intake;
+- the public NAVARO Business Circle landing page at `/circle`.
+
+The current product positioning should align with `navaro-app`: NAVARO is a beta commercial workflow platform built around Company Record, Contacts, Relationship Hub, OfferGen, Invoice/offer context, Discovery Review, and reviewable AI assistance. OfferGen is a key module, not the whole product.
+
+## Main routes
+
+- `/` — Slovak default landing page.
+- `/en`, `/pl` — localized landing pages.
+- `/offergen-early-access` — Slovak OfferGen early-access page.
+- `/en/offergen-early-access`, `/pl/offergen-early-access` — localized OfferGen early-access pages.
+- `/circle` — NAVARO Business Circle public landing page.
+- `/api/beta-request` — beta request form endpoint using Resend.
+
+## Business Circle direction
+
+Business Circle should be treated as a consent-led community and go-to-market surface, not as a default-public member marketplace.
+
+Near-term direction:
+
+- keep `/circle` as the public hub;
+- collect member profile opt-ins explicitly;
+- publish only approved member copy;
+- support short profiles with what a member offers and what they are looking for;
+- introduce thematic circles such as AI/automation for SMEs, tenders/offer preparation, accounting operations, short-term rentals, IT services, B2B services, and SK/CZ/CEE local growth;
+- start with curated/static content before building app-native profile management.
+
+## Environment
+
+Expected production configuration includes:
+
+- `RESEND_API_KEY` for beta request email delivery;
+- an approved sender/from address for Resend;
+- destination email configuration for beta requests, if supported by the deployed code;
+- links pointing to the production app domain, currently expected to be `https://app.navaro.pro`.
+
+Do not commit secrets or customer/member contact data.
+
+## Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Before shipping a change:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run lint
+npm run build
+```
 
-## Learn More
+## Cross-repository alignment
 
-To learn more about Next.js, take a look at the following resources:
+Keep public copy synchronized with:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `navaro-app` docs, especially `docs/product-current-state-2026-09-01.md`, `docs/handover/current-state.md`, and `docs/product-backlog.md`;
+- `navaro-admin` beta invite/admin operations behavior;
+- the current production app URL and beta onboarding flow.
