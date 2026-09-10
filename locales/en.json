@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Navaro – sales workspace for quotes, companies and relationships",
-    "description": "Navaro helps sales teams manage companies, contacts, relationships, discovery and professional quotes in one workspace."
+    "title": "Navaro – find the company, reach the decision maker, send the offer",
+    "description": "Navaro helps small B2B teams manage companies, contacts and relationships, find decision makers, prepare personalized outreach, and create professional quotes — in one workspace. Currently in beta."
   },
   "header": {
     "logo": "Navaro",
@@ -16,32 +16,50 @@
   },
   "hero": {
     "badge": "NAVARO Beta is ready for testing",
-    "h1_1": "Sales context.",
-    "h1_2": "Quotes without chaos.",
-    "subtext": "Navaro brings Company Record, contacts, relationships, discovery review and OfferGen into one workspace, so sales teams can work with current data and prepare better quotes faster.",
-    "cta1": "See the current MVP"
+    "h1_1": "From the right company",
+    "h1_2": "to the signed offer.",
+    "subtext": "Navaro brings Company Record, contacts and relationships, decision-maker discovery, personalized outreach drafts and OfferGen into one workspace. You work from current context and stay in control — nothing is sent automatically.",
+    "cta1": "See what NAVARO Beta does"
   },
   "solutions": {
     "title": "What is ready today in NAVARO Beta.",
-    "subtitle": "The current product foundation focuses on the sales workflow from company and contacts to quote, audit and discovery signals.",
+    "subtitle": "One connected workspace for the B2B flow — find the company, reach the right decision maker, prepare the outreach and create the offer. Currently in beta.",
     "items": [
       {
+        "name": "Company & Relationship Hub",
+        "badge": "Beta",
+        "badgeColor": "green",
+        "description": "Company Record, contacts and relationships in one place — a single view of a customer, its people and the relevant business context."
+      },
+      {
+        "name": "Discovery & Decision Makers",
+        "badge": "Beta",
+        "badgeColor": "green",
+        "description": "Run a bounded search for a company's likely decision makers, review the evidence and confidence, then accept the right ones as contacts or dismiss the rest. Result quality can vary by company and public sources."
+      },
+      {
+        "name": "AI Company Context & Outreach",
+        "badge": "Beta",
+        "badgeColor": "green",
+        "description": "Describe your company once — or fill it from your official website — and prepare a personalized, editable outreach draft for a chosen contact in EN, SK, PL or IT. You review and send it yourself; nothing is sent automatically."
+      },
+      {
         "name": "OfferGen",
-        "badge": "Testable",
+        "badge": "Beta",
         "badgeColor": "green",
-        "description": "Create and manage quotes with PDF export, sending, statuses, public offer links and company context attached."
+        "description": "Create and edit quotes, export a PDF, share a public offer link, and track approve / reject status — with company context attached."
       },
       {
-        "name": "Company Record & Relationships",
-        "badge": "Ready in beta foundation",
+        "name": "Team & audit",
+        "badge": "Beta",
         "badgeColor": "green",
-        "description": "Company profiles, contacts and Relationship Hub give the sales team one view of the customer, relationships and relevant business context."
+        "description": "Invite your team with workspace roles and membership controls, and keep an audit trail of the actions that matter."
       },
       {
-        "name": "Discovery & DMF",
-        "badge": "Tuning",
-        "badgeColor": "orange",
-        "description": "Discovery Review and the DMF foundation are ready as a base for systematic signal processing, audit and future sales recommendations."
+        "name": "Company enrichment & directory",
+        "badge": "Planned",
+        "badgeColor": "gray",
+        "description": "On-demand company-data enrichment and a searchable company directory with filters are on the roadmap — not available yet."
       }
     ]
   },
@@ -80,7 +98,7 @@
   "earlyAccess": {
     "label": "NAVARO Beta",
     "title": "Join testing of the sales workspace",
-    "description": "We are looking for companies that want to test OfferGen with company context, contacts, relationships and discovery workflow.",
+    "description": "We are looking for companies that want to test the workflow: company context and contacts, decision-maker discovery, personalized outreach drafts, and OfferGen quotes.",
     "cta": "Request beta access"
   },
   "offergenEarlyAccess": {
@@ -108,7 +126,7 @@
     "name": "Full name",
     "email": "Business email",
     "company": "Company name",
-    "message": "How do you currently create quotes? (optional)",
+    "message": "What would you like to use Navaro for? (optional)",
     "submit": "Send request",
     "submitting": "Sending...",
     "success": "Thank you! We'll be in touch soon with your invite.",

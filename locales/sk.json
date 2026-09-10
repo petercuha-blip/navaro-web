@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Navaro – obchodný workspace pre ponuky, firmy a vzťahy",
-    "description": "Navaro pomáha obchodným tímom spravovať firmy, kontakty, vzťahy, discovery a profesionálne cenové ponuky v jednom pracovnom priestore."
+    "title": "Navaro – nájdite firmu, oslovte rozhodovateľa, pošlite ponuku",
+    "description": "Navaro pomáha malým B2B tímom spravovať firmy, kontakty a vzťahy, nájsť rozhodovateľov, pripraviť personalizované oslovenie a vytvárať profesionálne cenové ponuky — v jednom workspace. Momentálne v beta verzii."
   },
   "header": {
     "logo": "Navaro",
@@ -16,32 +16,50 @@
   },
   "hero": {
     "badge": "NAVARO Beta je pripravené na testovanie",
-    "h1_1": "Obchodný kontext.",
-    "h1_2": "Ponuky bez chaosu.",
-    "subtext": "Navaro spája Company Record, kontakty, vzťahy, discovery review a OfferGen do jedného workspace, aby obchodné tímy pracovali s aktuálnymi dátami a vedeli rýchlejšie pripraviť kvalitnú ponuku.",
-    "cta1": "Pozrieť aktuálny MVP"
+    "h1_1": "Od správnej firmy",
+    "h1_2": "k podpísanej ponuke.",
+    "subtext": "Navaro spája Company Record, kontakty a vzťahy, vyhľadanie rozhodovateľov, personalizované návrhy oslovení a OfferGen do jedného workspace. Pracujete s aktuálnym kontextom a všetko máte pod kontrolou — nič sa neodosiela automaticky.",
+    "cta1": "Pozrieť, čo NAVARO Beta dokáže"
   },
   "solutions": {
     "title": "Čo je dnes pripravené v NAVARO Beta.",
-    "subtitle": "Aktuálny produktový základ je zameraný na obchodný workflow od firmy a kontaktov až po ponuku, audit a discovery signály.",
+    "subtitle": "Jeden prepojený workspace pre B2B tok — nájdite firmu, oslovte správneho rozhodovateľa, pripravte oslovenie a vytvorte ponuku. Momentálne v beta verzii.",
     "items": [
       {
+        "name": "Company & Relationship Hub",
+        "badge": "Beta",
+        "badgeColor": "green",
+        "description": "Company Record, kontakty a vzťahy na jednom mieste — jeden prehľad o zákazníkovi, jeho ľuďoch a relevantnom obchodnom kontexte."
+      },
+      {
+        "name": "Discovery & rozhodovatelia",
+        "badge": "Beta",
+        "badgeColor": "green",
+        "description": "Spustite ohraničené vyhľadanie pravdepodobných rozhodovateľov firmy, posúďte dôkazy a istotu a tých správnych prijmite ako kontakty — ostatné zamietnite. Kvalita výsledkov sa môže líšiť podľa firmy a verejných zdrojov."
+      },
+      {
+        "name": "AI kontext firmy a oslovenie",
+        "badge": "Beta",
+        "badgeColor": "green",
+        "description": "Opíšte svoju firmu raz — alebo ju doplňte z oficiálnej webstránky — a pripravte personalizovaný, upraviteľný návrh oslovenia pre vybraný kontakt v EN, SK, PL či IT. Správu si skontrolujete a odošlete sami; nič sa neodosiela automaticky."
+      },
+      {
         "name": "OfferGen",
-        "badge": "Testovateľné",
+        "badge": "Beta",
         "badgeColor": "green",
-        "description": "Tvorba a správa cenových ponúk s PDF exportom, odosielaním, statusmi, verejnými offer linkami a naviazaním na firemný kontext."
+        "description": "Vytvárajte a upravujte cenové ponuky, exportujte PDF, zdieľajte verejný odkaz na ponuku a sledujte stav schválené / zamietnuté — s naviazaným firemným kontextom."
       },
       {
-        "name": "Company Record & Relationships",
-        "badge": "Hotové v beta základe",
+        "name": "Tím a audit",
+        "badge": "Beta",
         "badgeColor": "green",
-        "description": "Firemný profil, kontakty a Relationship Hub dávajú obchodnému tímu jeden prehľad o zákazníkovi, väzbách a relevantných obchodných súvislostiach."
+        "description": "Pozvite tím s rolami a správou členstva vo workspace a majte prehľad o dôležitých akciách vďaka auditnému záznamu."
       },
       {
-        "name": "Discovery & DMF",
-        "badge": "Ladenie",
-        "badgeColor": "orange",
-        "description": "Discovery Review a DMF foundation sú pripravené ako základ pre systematické spracovanie signálov, audit a ďalšie odporúčania v obchodnom procese."
+        "name": "Obohacovanie údajov a adresár firiem",
+        "badge": "Plánované",
+        "badgeColor": "gray",
+        "description": "Doplnenie firemných údajov na požiadanie a vyhľadávateľný adresár firiem s filtrami sú v pláne — zatiaľ nie sú dostupné."
       }
     ]
   },
@@ -80,7 +98,7 @@
   "earlyAccess": {
     "label": "NAVARO Beta",
     "title": "Zapojte sa do testovania obchodného workspace",
-    "description": "Hľadáme firmy, ktoré chcú testovať OfferGen s firemným kontextom, kontaktmi, vzťahmi a discovery workflow.",
+    "description": "Hľadáme firmy, ktoré chcú testovať celý tok: firemný kontext a kontakty, vyhľadanie rozhodovateľov, personalizované návrhy oslovení a ponuky v OfferGene.",
     "cta": "Požiadať o beta prístup"
   },
   "offergenEarlyAccess": {
@@ -108,7 +126,7 @@
     "name": "Meno a priezvisko",
     "email": "Firemný email",
     "company": "Názov firmy",
-    "message": "Ako momentálne vytvárate cenové ponuky? (voliteľné)",
+    "message": "Na čo by ste chceli Navaro používať? (voliteľné)",
     "submit": "Odoslať žiadosť",
     "submitting": "Odosielam...",
     "success": "Ďakujeme! Ozveme sa vám čoskoro s pozvánkou.",

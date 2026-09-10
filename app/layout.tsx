@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Navaro – profesionálne cenové ponuky s AI',
+  title: 'Navaro – nájdite firmu, oslovte rozhodovateľa, pošlite ponuku',
   description:
-    'Vytvárajte profesionálne cenové ponuky s pomocou AI za pár minút. Exportujte ako PDF, odošlite zákazníkovi a sledujte jeho rozhodnutie v reálnom čase.',
+    'Navaro pomáha malým B2B tímom spravovať firmy, kontakty a vzťahy, nájsť rozhodovateľov, pripraviť personalizované oslovenie a vytvárať profesionálne cenové ponuky — v jednom workspace. Momentálne v beta verzii.',
   openGraph: {
-    title: 'Navaro – profesionálne cenové ponuky s AI',
+    title: 'Navaro – nájdite firmu, oslovte rozhodovateľa, pošlite ponuku',
     description:
-      'Vytvárajte profesionálne cenové ponuky s pomocou AI za pár minút. Exportujte ako PDF, odošlite zákazníkovi a sledujte jeho rozhodnutie v reálnom čase.',
+      'Navaro pomáha malým B2B tímom spravovať firmy, kontakty a vzťahy, nájsť rozhodovateľov, pripraviť personalizované oslovenie a vytvárať profesionálne cenové ponuky — v jednom workspace. Momentálne v beta verzii.',
     url: 'https://navaro.pro',
     siteName: 'Navaro',
     locale: 'sk_SK',
