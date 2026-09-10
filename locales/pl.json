@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Navaro – workspace sprzedażowy dla ofert, firm i relacji",
-    "description": "Navaro pomaga zespołom sprzedaży zarządzać firmami, kontaktami, relacjami, discovery i profesjonalnymi ofertami w jednym miejscu."
+    "title": "Navaro – znajdź firmę, dotrzyj do decydenta, wyślij ofertę",
+    "description": "Navaro pomaga małym zespołom B2B zarządzać firmami, kontaktami i relacjami, znajdować decydentów, przygotowywać spersonalizowany kontakt i tworzyć profesjonalne oferty — w jednym miejscu. Obecnie w wersji beta."
   },
   "header": {
     "logo": "Navaro",
@@ -16,32 +16,50 @@
   },
   "hero": {
     "badge": "NAVARO Beta jest gotowe do testów",
-    "h1_1": "Kontekst sprzedaży.",
-    "h1_2": "Oferty bez chaosu.",
-    "subtext": "Navaro łączy Company Record, kontakty, relacje, discovery review i OfferGen w jednym workspace, aby zespoły sprzedaży pracowały na aktualnych danych i szybciej przygotowywały lepsze oferty.",
-    "cta1": "Zobacz aktualne MVP"
+    "h1_1": "Od właściwej firmy",
+    "h1_2": "do podpisanej oferty.",
+    "subtext": "Navaro łączy Company Record, kontakty i relacje, wyszukiwanie decydentów, spersonalizowane szkice wiadomości i OfferGen w jednym workspace. Pracujesz na aktualnym kontekście i zachowujesz kontrolę — nic nie jest wysyłane automatycznie.",
+    "cta1": "Zobacz, co potrafi NAVARO Beta"
   },
   "solutions": {
     "title": "Co jest dziś gotowe w NAVARO Beta.",
-    "subtitle": "Aktualna podstawa produktu skupia się na workflow sprzedażowym od firmy i kontaktów po ofertę, audyt i sygnały discovery.",
+    "subtitle": "Jeden połączony workspace dla procesu B2B — znajdź firmę, dotrzyj do właściwego decydenta, przygotuj kontakt i stwórz ofertę. Obecnie w wersji beta.",
     "items": [
       {
+        "name": "Company & Relationship Hub",
+        "badge": "Beta",
+        "badgeColor": "green",
+        "description": "Company Record, kontakty i relacje w jednym miejscu — jeden widok klienta, jego osób i istotnego kontekstu biznesowego."
+      },
+      {
+        "name": "Discovery i decydenci",
+        "badge": "Beta",
+        "badgeColor": "green",
+        "description": "Uruchom ograniczone wyszukiwanie prawdopodobnych decydentów firmy, przejrzyj dowody i pewność, a właściwych zaakceptuj jako kontakty — resztę odrzuć. Jakość wyników może się różnić w zależności od firmy i źródeł publicznych."
+      },
+      {
+        "name": "Kontekst firmy AI i kontakt",
+        "badge": "Beta",
+        "badgeColor": "green",
+        "description": "Opisz swoją firmę raz — lub uzupełnij ją z oficjalnej strony — i przygotuj spersonalizowany, edytowalny szkic wiadomości do wybranego kontaktu w EN, SK, PL lub IT. Wiadomość sprawdzasz i wysyłasz samodzielnie; nic nie jest wysyłane automatycznie."
+      },
+      {
         "name": "OfferGen",
-        "badge": "Testowalne",
+        "badge": "Beta",
         "badgeColor": "green",
-        "description": "Tworzenie i zarządzanie ofertami z eksportem PDF, wysyłką, statusami, publicznymi linkami ofertowymi i kontekstem firmy."
+        "description": "Twórz i edytuj oferty, eksportuj PDF, udostępniaj publiczny link do oferty i śledź status zatwierdzone / odrzucone — z dołączonym kontekstem firmy."
       },
       {
-        "name": "Company Record & Relationships",
-        "badge": "Gotowe w beta podstawie",
+        "name": "Zespół i audyt",
+        "badge": "Beta",
         "badgeColor": "green",
-        "description": "Profile firm, kontakty i Relationship Hub dają zespołowi sprzedaży jeden widok klienta, relacji i istotnego kontekstu biznesowego."
+        "description": "Zaproś zespół z rolami i zarządzaniem członkostwem w workspace i miej wgląd w ważne działania dzięki dziennikowi audytu."
       },
       {
-        "name": "Discovery & DMF",
-        "badge": "Dostrajanie",
-        "badgeColor": "orange",
-        "description": "Discovery Review i fundament DMF są gotowe jako baza do systematycznego przetwarzania sygnałów, audytu i przyszłych rekomendacji sprzedażowych."
+        "name": "Wzbogacanie danych i katalog firm",
+        "badge": "Planowane",
+        "badgeColor": "gray",
+        "description": "Uzupełnianie danych firmowych na żądanie oraz przeszukiwalny katalog firm z filtrami są w planach — jeszcze niedostępne."
       }
     ]
   },
@@ -80,7 +98,7 @@
   "earlyAccess": {
     "label": "NAVARO Beta",
     "title": "Dołącz do testów workspace sprzedażowego",
-    "description": "Szukamy firm, które chcą testować OfferGen z kontekstem firmy, kontaktami, relacjami i workflow discovery.",
+    "description": "Szukamy firm, które chcą przetestować cały proces: kontekst firmy i kontakty, wyszukiwanie decydentów, spersonalizowane szkice wiadomości i oferty w OfferGen.",
     "cta": "Poproś o dostęp beta"
   },
   "offergenEarlyAccess": {
@@ -108,7 +126,7 @@
     "name": "Imię i nazwisko",
     "email": "Email firmowy",
     "company": "Nazwa firmy",
-    "message": "Jak obecnie tworzysz oferty cenowe? (opcjonalnie)",
+    "message": "Do czego chciałbyś używać Navaro? (opcjonalnie)",
     "submit": "Wyślij prośbę",
     "submitting": "Wysyłam...",
     "success": "Dziękujemy! Wkrótce wyślemy Ci zaproszenie.",

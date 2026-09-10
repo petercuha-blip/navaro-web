@@ -106,7 +106,7 @@ export default function LandingPage({ t, lang }: Props) {
         <div className="min-w-0">
           <img
             src="/screenshot-dashboard.png"
-            alt="Navaro OfferGen dashboard"
+            alt="Navaro dashboard"
             className="w-full rounded-2xl border border-gray-200 shadow-2xl"
           />
         </div>
