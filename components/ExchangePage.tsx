@@ -87,7 +87,7 @@ export default function ExchangePage() {
             <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#6D35F5] text-sm font-black text-white shadow-[0_8px_22px_rgba(109,53,245,0.24)] transition group-hover:-rotate-3">N</span>
             <span className="min-w-0">
               <span className="block text-sm font-black tracking-[0.08em]">NAVARO</span>
-              <span className="block truncate text-xs font-medium text-[#64748B]">AI Capacity Exchange</span>
+              <span className="hidden truncate text-xs font-medium text-[#64748B] sm:block">AI Capacity Exchange</span>
             </span>
           </a>
           <a href={PARTNER_MAILTO} data-analytics-event="exchange_pilot_cta_click" className="rounded-full bg-[#6D35F5] px-5 py-2.5 text-sm font-bold text-white shadow-[0_8px_22px_rgba(109,53,245,0.22)] transition hover:-translate-y-0.5 hover:bg-[#5B27D9] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#6D35F5]">
@@ -104,8 +104,8 @@ export default function ExchangePage() {
               <span className="h-2 w-2 rounded-full bg-[#6D35F5] shadow-[0_0_0_4px_rgba(109,53,245,0.12)]" />
               NAVARO EXPERIMENTAL INITIATIVE
             </div>
-            <h1 className="max-w-3xl text-[2.75rem] font-black leading-[0.99] tracking-[-0.055em] text-[#0F172A] sm:text-6xl lg:text-[4.4rem]">
-              Buy only the AI capacity you need, <span className="text-[#6D35F5]">exactly when you need it.</span>
+            <h1 className="max-w-3xl text-[2.5rem] font-black leading-[1.02] tracking-[-0.055em] text-[#0F172A] sm:text-6xl lg:text-[4.4rem]">
+  Buy only the AI capacity you need, <span className="text-[#6D35F5]">exactly when you need it.</span>
             </h1>
             <div className="mt-7 max-w-xl space-y-3 text-base leading-7 text-[#475569] sm:text-lg sm:leading-8">
               <p>AI users often hit a usage limit in the middle of productive work.</p>
