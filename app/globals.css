@@ -24,3 +24,38 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.exchange-page {
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+.exchange-grid {
+  background-image:
+    linear-gradient(rgba(109, 53, 245, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(109, 53, 245, 0.045) 1px, transparent 1px);
+  background-size: 42px 42px;
+  -webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 92%);
+  mask-image: linear-gradient(to bottom, black 0%, transparent 92%);
+}
+
+@keyframes exchange-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@media (min-width: 1024px) and (prefers-reduced-motion: no-preference) {
+  .exchange-float {
+    animation: exchange-float 6s ease-in-out infinite;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .exchange-page *,
+  .exchange-page *::before,
+  .exchange-page *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
