@@ -6,11 +6,13 @@ export const metadata: Metadata = {
   description:
     "A provider-authorized marketplace concept for purchasing small amounts of AI capacity exactly when users need it. Explore the NAVARO partner pilot.",
   alternates: {
-    canonical: "/exchange",
+    canonical: "https://exchange.navaro.pro/",
   },
   openGraph: {
     title: "AI Capacity Exchange by NAVARO",
-    description: "Buy only the AI capacity you need, exactly when you need it.",
+    description:
+      "Buy only the AI capacity you need, exactly when you need it.",
+    url: "https://exchange.navaro.pro/",
     siteName: "NAVARO AI Capacity Exchange",
     locale: "en_US",
     type: "website",
